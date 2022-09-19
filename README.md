@@ -1,7 +1,12 @@
 # Hacking &amp; Cybersecurity class materials
-**Instructors:** [Scott J. Shapiro](mailto:scott.shapiro@yale.edu) &amp; [Sean O'Brien](mailto:sean.obrien@yale.edu)
+
+[SIGN UP / SUPPORT LAWFARE BUTTONS]
 
 <img src="scott-promo.png" width="600" />
+
+**Instructors:** [Scott J. Shapiro](mailto:scott.shapiro@yale.edu) &amp; [Sean O'Brien](mailto:sean.obrien@yale.edu)
+
+## Welcome Future Hackers!
 
 We are delighted to announce a first on [Lawfare](https://www.lawfareblog.com/lawfare-hacking-and-cybersecurity-course): A live online class on hacking and cybersecurity.
 
