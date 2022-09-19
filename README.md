@@ -1,6 +1,8 @@
 # Hacking &amp; Cybersecurity class materials
 **Instructors:** [Scott J. Shapiro](mailto:scott.shapiro@yale.edu) &amp; [Sean O'Brien](mailto:sean.obrien@yale.edu)
 
+<img src="scott-promo.png" width="600" />
+
 We are delighted to announce a first on [Lawfare](https://www.lawfareblog.com/lawfare-hacking-and-cybersecurity-course): A live online class on hacking and cybersecurity.
 
 The live-course will be open to Lawfare's [material supporters](https://www.patreon.com/lawfare), and we will edit and post each recorded class session onto YouTube as videos that will amount to a public course on computer hacking. 
@@ -31,7 +33,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 
 ### Download & Install VirtualBox
 
-<img src="virtualbox-download.png" />
+<img src="virtualbox-download.png" width="600" />
 
 * [Video for Windows users]()
 * [Video for Mac users]()
@@ -39,7 +41,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 
 ### Download & Install Kali Linux
 
-<img src="kali-download.png" />
+<img src="kali-download.png" width="600" />
 
 * [Video for Windows users]()
 * [Video for Mac users]()
