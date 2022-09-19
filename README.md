@@ -31,7 +31,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 
 ### Download & Install VirtualBox
 
-[virtualbox-download.png]
+<img src="virtualbox-download.png" />
 
 * [Video for Windows users]()
 * [Video for Mac users]()
@@ -39,7 +39,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 
 ### Download & Install Kali Linux
 
-[screenshots/prep/kali-download.png]
+<img src="kali-download.png" />
 
 * [Video for Windows users]()
 * [Video for Mac users]()
