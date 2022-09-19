@@ -2,7 +2,7 @@
 
 [SIGN UP / SUPPORT LAWFARE BUTTONS]
 
-<img src="scott-promo.png" width="600" />
+<img src="scott-promo.png" width="500" />
 
 **Instructors:** [Scott J. Shapiro](mailto:scott.shapiro@yale.edu) &amp; [Sean O'Brien](mailto:sean.obrien@yale.edu)
 
