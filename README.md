@@ -9,9 +9,12 @@ The live-course will be open to Lawfare's [material supporters](https://www.patr
 
 Whether one joins live or watches the videos later, students will learn to use virtual machines to "hack" other virtual machines using standard attacks such as packet sniffing, buffer overflow, IP spoofing, certification forgery, Person-in-the-middle, SQL injection and Cross site scripting.
 
-## FAQs
+## TLDR;
+Drop into the class and be ready with this Command Line Interface (CLI): 
 
-[TODO Who, What, Why, Where, How answering common questions from the intro session in early September]
+* [OPEN COMMAND LINE INTERFACE IN BROWSER](https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192)
+
+Though we will be using Kali Linux this CLI will get you started and following along at the start of the class. After the second week, when we move to more complex concepts and examples, this CLI will no longer be useful.
 
 ## Getting Started
 
@@ -52,11 +55,12 @@ To effectively run virtual machines inside your host operating system, we recomm
 ### Week 1, September 20, 2022
 
 * Our Approach
-* Information Security
-* Confidentiality Integrity
-* Availability
-* Introduction: Virtualization
+* Introduction: Information Security
+* Setting Up VirtualBox & Kali Linux
 * Command Line Interface (CLI)
-* The File-system Tree
+* The Filesystem Tree
 
 
+## FAQs
+
+[TODO Who, What, Why, Where, How answering common questions from the intro session in early September]
