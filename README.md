@@ -33,7 +33,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 
 * 4 GB of RAM
 * 32 GB of disk space
-* 64 bit CPU (single core) with 2 GHz speed or better
+* 64 bit CPU (multiple core) with 2 GHz speed or better
 * High definition graphics card
 * Broadband Internet connection
 
