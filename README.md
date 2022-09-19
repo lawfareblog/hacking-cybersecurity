@@ -32,7 +32,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 * High definition graphics card
 * Broadband Internet connection
 
-**A good rule of thumb:** Use a computer no older than the start of the Covid pandemic, and definitely don't try this course on a computer that predates Trump's election.  We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines.  Please contact [contact info for support staff].
+**A good rule of thumb:** Use a computer no older than the start of the Covid pandemic.  We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines.  Please contact [contact info for support staff].
 
 ### Download & Install VirtualBox
 
