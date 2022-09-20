@@ -63,7 +63,7 @@ Kali Linux setup tutorials:
 
 ## Syllabus
 
-### Week 1, September 20, 2022
+### Week 1, September 20, 2022 7:00pm ET
 
 * Our Approach
 * Introduction: Information Security
