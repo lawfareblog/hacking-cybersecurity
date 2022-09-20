@@ -39,7 +39,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 
 ### Download & Install VirtualBox
 
-[Click here](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox installer for your operating system.
+[Click here](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox installer for your operating system. You may also need to install the Extension Pack on your operating system, depending on settings.
 
 [<img src="virtualbox-download.png" width="600" />](https://www.virtualbox.org/wiki/Downloads)
 
