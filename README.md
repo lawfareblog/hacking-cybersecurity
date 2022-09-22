@@ -86,7 +86,7 @@ Kali Linux setup tutorials:
 
 #### Log In to Kali Linux
 
-You may have to [restart your system](https://www.youtube.com/watch?v=p85xwZ_OLX0) to make sure virtualization drivers are loaded by your OS. Once you can boot Kali Linux, please log in with:
+You may have to [restart your system](https://www.youtube.com/watch?v=p85xwZ_OLX0) to make sure virtualization drivers are loaded by your OS. Once you can boot Kali Linux, please log in. If you have installed Kali via the [VirtualBox VM method we recommend](https://www.kali.org/get-kali/#kali-virtual-machines), the default credentials are: 
 
 * username: `kali`
 * password: `kali`
