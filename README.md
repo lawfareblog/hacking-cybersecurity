@@ -63,7 +63,7 @@ Kali Linux setup tutorials:
 
 ## Syllabus
 
-### Week 1: The Command Line Interface (CLI) &amp; Filesystems | September 20, 2022 7:00pm ET
+### Week 1: Introduction, Command Line Interface, Filesystems | Sep 20, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=cgRfNFwWYIw) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and)
 
@@ -83,7 +83,7 @@ Kali Linux setup tutorials:
 * Navigating Directories [MP4](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/02_Navigating_Directories.mp4) | [WEBM](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/02_Navigating_Directories.webm)
 * Manipulating Files [MP4](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/03_Manipulating_Files.mp4) | [WEBM](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/03_Manipulating_Files.webm)
 
-### Week 2: Get to Know Your Operating System | September 27, 2022 7:00pm ET
+### Week 2: Get to Know Your Operating System | Sep 27, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=AhxTRUKZqPQ) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-2)
 
@@ -93,7 +93,7 @@ Kali Linux setup tutorials:
 * Processes
 * Rootkits
 
-### Week 3: Identity &amp; Access Control | October 4, 2022 7:00pm ET
+### Week 3: Identity &amp; Access Control | Oct 4, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=8iboJMQwOj8) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-3)
 
@@ -104,7 +104,7 @@ Kali Linux setup tutorials:
 * Privilege Escalation Attacks
 * Breaking `/etc/shadow`
 
-### Week 4: Computers &amp; Operating Systems | October 11, 2022 7:00pm ET
+### Week 4: Computers &amp; Operating Systems | Oct 11, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=rWJcYZyAXUQ) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-4)
 
@@ -123,7 +123,7 @@ Kali Linux setup tutorials:
 	- Planes, Trains, &amp; Automobiles
 * Adversary-in-the-Middle Attacks (AiTM or MiTM)
 
-### Week 5: Networking I | October 18, 2022 7:00pm ET
+### Week 5: Networking I | Oct 18, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=lKsD4iuL9aI) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-5)
 
