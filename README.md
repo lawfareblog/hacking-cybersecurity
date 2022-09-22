@@ -84,6 +84,17 @@ Kali Linux setup tutorials:
 * [Video for Mac users](https://www.youtube.com/watch?v=U2nzRtDVknk)
 * [Video for GNU/Linux users](https://www.youtube.com/watch?v=ILwRmXx8kwg)
 
+#### Log In to Kali Linux
+
+You may have to [restart your system](https://www.youtube.com/watch?v=p85xwZ_OLX0) to make sure virtualization drivers are loaded by your OS. Once you can boot Kali Linux, please log in with:
+
+* username: `kali`
+* password: `kali`
+
+<img src="week01/images/kali-login.png" width="600" />
+
+Don't worry, we'll show you how to change this default password (and crack the weak passwords of other users)!
+
 ## Syllabus
 
 ### Week 1: Introduction, Command Line Interface, Filesystems | Sep 20, 2022 7:00pm ET
