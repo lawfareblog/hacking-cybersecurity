@@ -40,6 +40,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 	- See note about the latest Mac M1/M2 models below.
 * High definition graphics card
 * Broadband Internet connection
+* Latest versions of Windows, macOS, or GNU/Linux (Ubuntu, Debian, or CentOS recommended)
 
 **A good rule of thumb:** Use a computer no older than the start of the Covid pandemic. We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines. See note about the latest Mac M1/M2 models below.
 
