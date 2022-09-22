@@ -35,7 +35,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 * High definition graphics card
 * Broadband Internet connection
 
-**A good rule of thumb:** Use a computer no older than the start of the Covid pandemic.  We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines.
+**A good rule of thumb:** Use a computer no older than the start of the Covid pandemic. We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines.
 
 ### Download & Install VirtualBox
 
@@ -63,7 +63,9 @@ Kali Linux setup tutorials:
 
 ## Syllabus
 
-### Week 1, September 20, 2022 7:00pm ET
+### Week 1: The Command Line Interface (CLI) &amp; Filesystems | September 20, 2022 7:00pm ET
+
+[Scott's Video Intro](https://www.youtube.com/watch?v=cgRfNFwWYIw) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and)
 
 * Our Approach
 * Introduction: Information Security
@@ -73,11 +75,63 @@ Kali Linux setup tutorials:
 
 #### Supplementary Materials (Homework)
 
+**Text Overview / Refresher:**
+* [The Command Line Interface (CLI) and Filesystems](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/Week_01_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/Week_01_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/Week_01_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/Week_01_Homework.html)
+
 **Videos:**
 * Filesystems [MP4](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/01_Filesystems.mp4) | [WEBM](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/01_Filesystems.webm)
 * Navigating Directories [MP4](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/02_Navigating_Directories.mp4) | [WEBM](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/02_Navigating_Directories.webm)
 * Manipulating Files [MP4](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/03_Manipulating_Files.mp4) | [WEBM](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/03_Manipulating_Files.webm)
 
-**Text Overview / Refresher:**
-* [The Command Line Interface (CLI) and Filesystems](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.html) 
+### Week 2: Get to Know Your Operating System | September 27, 2022 7:00pm ET
+
+[Scott's Video Intro](https://www.youtube.com/watch?v=AhxTRUKZqPQ) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-2)
+
+* Admin / Root Access
+* The Kernel
+* Userspace
+* Processes
+* Rootkits
+
+### Week 3: Identity &amp; Access Control | October 4, 2022 7:00pm ET
+
+[Scott's Video Intro](https://www.youtube.com/watch?v=8iboJMQwOj8) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-3)
+
+* Permissions
+* Creating Users &amp; Groups
+* Credentials &amp; Cracking
+* Principle of Least Privilege
+* Privilege Escalation Attacks
+* Breaking `/etc/shadow`
+
+### Week 4: Computers &amp; Operating Systems | October 11, 2022 7:00pm ET
+
+[Scott's Video Intro](https://www.youtube.com/watch?v=rWJcYZyAXUQ) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-4)
+
+* Historical &amp; Current OS's 
+	- Unix
+	- Linux 
+	- macOS 
+	- DOS
+	- Windows 
+	- Android 
+	- iOS
+* Other Computers
+	- Mainframes
+	- Internet of Things (IoT)
+	- Industrial Control Systems 
+	- Planes, Trains, &amp; Automobiles
+* Adversary-in-the-Middle Attacks (AiTM or MiTM)
+
+### Week 5: Networking I | October 18, 2022 7:00pm ET
+
+[Scott's Video Intro](https://www.youtube.com/watch?v=lKsD4iuL9aI) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-5)
+
+* Networking History
+* Client/Server Model
+* Networking Models (OSI &amp; TCP/IP)
+* Physical & Internet Infrastructure
+* TCP/IP & UDP
+* Changing Your Network Identification
+
 
