@@ -238,5 +238,5 @@ Kali Linux setup tutorials:
 
 ## Licensing
 
-These class materials are ethical Free and Open Source Software (FOSS). Any and all original work contained in this repository that is authored by Scott J. Shapiro and/or Sean O'Brien is released under the [GNU AGPL version 3](http://www.gnu.org/licenses/agpl-3.0.html) or any later version]. See '[LICENSE](LICENSE)' for more information.
+These class materials are ethical Free and Open Source Software (FOSS). Any and all original work contained in this repository that is authored by Scott J. Shapiro and/or Sean O'Brien is released under the [GNU AGPL version 3](http://www.gnu.org/licenses/agpl-3.0.html) or any later version. See `[LICENSE](LICENSE)` for more information.
 
