@@ -71,7 +71,7 @@ Kali Linux setup tutorials:
 * Command Line Interface (CLI)
 * The Filesystem Tree
 
-#### Supplementary Materials (Homework)**
+#### Supplementary Materials (Homework)
 
 **Videos:**
 * Filesystems [MP4](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/01_Filesystems.mp4) | [WEBM](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/01_Filesystems.webm)
@@ -79,5 +79,5 @@ Kali Linux setup tutorials:
 * Manipulating Files [MP4](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/03_Manipulating_Files.mp4) | [WEBM](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/03_Manipulating_Files.webm)
 
 **Text Overview / Refresher:**
-* [The Command Line Interface (CLI) and Filesystems](week01/Week01_Homework.md)
+* [The Command Line Interface (CLI) and Filesystems](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.md)
 

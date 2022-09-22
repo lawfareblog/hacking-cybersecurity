@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.2">
+<title>Week_01_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 1 - Supplementary Materials</h1>
+<h2>The Command Line Interface (CLI) and Filesystems</h2>
+<p>A command line interface accepts text commands and executes programs.</p>
+<p>Using a CLI was once the only way a person could operate a computer. Today, most users interact with a graphical user interface (GUI) that allows you, for example, to click an icon on your desktop with a mouse or tap on a smartphone touchscreen.</p>
+<p>This week we focus on using a CLI to interact with and navigate a filesystem. This is a basic skill required for hackers.</p>
+<p><strong>Try a CLI in your browser:</strong>  </p>
+<ul>
+<li><a href="https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&amp;mem=192">BROWSER CLI</a></li>
+</ul>
+<p><strong>Videos:</strong>  </p>
+<ul>
+<li>
+<p>Filesystems <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/01_Filesystems.mp4">MP4</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/01_Filesystems.webm">WEBM</a>  </p>
+</li>
+<li>
+<p>Navigating Directories <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/02_Navigating_Directories.mp4">MP4</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/02_Navigating_Directories.webm">WEBM</a>  </p>
+</li>
+<li>
+<p>Manipulating Files <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/03_Manipulating_Files.mp4">MP4</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week01/videos/03_Manipulating_Files.webm">WEBM</a></p>
+</li>
+</ul>
+<h3>Basic Commands</h3>
+<h4><code>pwd</code> - print working directory</h4>
+<p>Use the <code>pwd</code> command to see what directory you are currently in.</p>
+<p>On most systems, users start a session in their home directory, which is the directory set by the system administrator for that user. Your home directory is usually <code>/home/user</code> where "user" is your account's username. For the administrative superuser named "root", a concept we will explore later, the home directory is <code>/root</code></p>
+<h4><code>cd</code> - change directory</h4>
+<p>To navigate to a specific directory use the <code>cd</code> command. The <code>cd</code> command takes a path as an argument such as <code>cd /usr/bin</code> and moves you into that directory.</p>
+<p>If you would like to navigate up the directory tree, use <code>cd ..</code> If you are in <code>/usr/bin</code> then the <code>cd ..</code> command will bring you to <code>/usr/bin</code> If you try <code>cd ..</code> again, it will bring you to <code>/</code> which is the absolute top of the directory tree. This is often called the "directory root", not to be confused with the administrative superuser named "root".</p>
+<p>To navigate back to your home directory, use the <code>cd</code> command with no arguments or <code>cd ~</code> where <code>~</code> means your home directory.</p>
+<h4><code>ls</code> - list</h4>
+<p><code>ls</code> without any arguments will list all the files and directories within the directory you are currently in.</p>
+<p>Pass a specific directory as an argument to <code>ls</code> to see the contents of that directory. For example, <code>ls /usr/bin</code> will list the contents of <code>/usr/bin</code></p>
+<p>If you use the <code>-l</code> option or "switch" with <code>ls</code>, you will see much more detail about the directory contents. Try: <code>ls -l /usr/bin</code></p>
+<p>To make directory listings easier to read, you can "pipe" the output to <code>less</code> such as <code>ls -l /usr/bin | less</code> We will talk about pipes and input/output in more detail in later classes.</p>
+<p>If you try <code>ls --help</code> you can see all options available for <code>ls</code> and most other commands.</p>
+<h4><code>clear</code> - clear screen</h4>
+<p>You may find that your CLI has become cluttered. To clear your screen use <code>clear</code>.</p>
+<p>To clear your total terminal / CLI history, try <code>history -c</code></p>
+<h4><code>man</code> - manual</h4>
+<p>The <code>man</code> command will open the usage manual, if one exists, for the command that you pass to it as an argument. For example, <code>man ls</code> will open the manual for the <code>ls</code> command. You can quit this manual view by typing <code>q</code></p>
+<p>Hackers use the slang <a href="https://en.wikipedia.org/wiki/RTFM">RTFM</a> to refer to the tendency for users to ignore manuals.</p>
+<p>Often, you can view a shorter version of the options for a command that is similar to the manual with the <code>--help</code> or <code>-h</code> switches, such as <code>ls --help</code> or <code>nano -h</code></p>
+<h4><code>mkdir</code> - make directory</h4>
+<p>To create a new directory, use the <code>mkdir</code> command. You can only create a directory where you have permission to do so. Permissions are a concept we will cover in class later. For now, try creating the directory <code>catphotos</code> in your home directory: <code>mkdir ~/cats</code></p>
+<h4><code>touch</code> - create an empty file</h4>
+<p>The <code>touch</code> command creates a new, empty file such as <code>touch ~/cats/awesome-cat-names.txt</code></p>
+<h4>nano - simple text editor</h4>
+<p>Nano is one of many text editors that can be loaded with the CLI, but is probably the simplest. It will load a file in a separate view that can be exited with <code>CTRL+X</code> and you will see this at the bottom of the screen represented as <code>^X</code>  For more information, <a href="https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/">read this tutorial</a>.</p>
+<p>Create your own list of awesome cat names with <code>nano ~/cats/awesome-cat-names.txt</code></p>
+<p>Traditionally, the two text editors that hackers use are <code>vi</code> or <code>emacs</code>  There is a tongue-in-cheek <a href="https://en.wikipedia.org/wiki/Editor_war">"editor war"</a> between these two editors.</p>
+<h4><code>mv</code> - move a file</h4>
+<p><code>mv</code> can move a file or directory somewhere else on the filesystem but <strong>is also used to rename files</strong>. This is because renaming a file is just creating a new entry for the file, the same operation as moving it to another directory, as far as the filesystem is concerned.</p>
+<p>Use the <code>mv</code> command and pass two arguments, the first being the current filename and the second being the new name: <code>mv awesome-cat-names.txt cool-cat-names.txt</code></p>
+<p>Use <code>mv -R</code> to move a directory and its contents.</p>
+<p>Be careful! If there is already a file with the same name, you will overwrite that file.</p>
+<h4><code>cp</code> - copy</h4>
+<p>To copy a file use the cp command: <code>cp cool-cat-names.txt cool-cat-names2.txt</code></p>
+<p>Use <code>cp -R</code> to copy a directory and its contents.</p>
+<h4><code>rm</code> - remove</h4>
+<p>Delete a file: <code>rm cool-cat-names2.txt</code></p>
+<p>Use <code>rm -R</code> to delete a directory and its contents.</p>
+<p>Be careful! There are jokes on the Internet that hackers like to test on new users, or "n00bs", such as <code>rm -Rf /</code> that can be very dangerous. Luckily, you usually have to be the administrative superuser "root" to do serious damage to your filesystem.</p>
+
+</body>
+</html>
