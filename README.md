@@ -58,11 +58,11 @@ The latest Apple Mac models use a custom M1 or M2 ARM chipset that is **not 64-b
 	- [Video 1: Install Kali on VMware Fusion](https://www.youtube.com/watch?v=2qhL1Blq8es)
 	- [Video 2: Install Kali on VMware Fusion](https://www.youtube.com/watch?v=RMd5PrdwiOM)
 
-* [Video: Install Kali on Mac M1/M2 using UTM](https://www.youtube.com/watch?v=Z2e-fRLxXnU]
+* [Video: Install Kali on Mac M1/M2 using UTM](https://www.youtube.com/watch?v=Z2e-fRLxXnU)
 
 ### Download &amp; Install VirtualBox
 
-[Click here](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox installer for your operating system. You may also need to install the Extension Pack on your operating system, depending on settings.
+[CLICK HERE](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox installer for your operating system. You may also need to install the Extension Pack on your operating system, depending on settings.
 
 [<img src="week01/images/virtualbox-download.png" width="600" />](https://www.virtualbox.org/wiki/Downloads)
 
@@ -70,7 +70,7 @@ VirtualBox installation tutorials:
 
 * [Video for Windows users](https://www.youtube.com/watch?v=8mns5yqMfZk)
 * [Video for Mac users](https://www.youtube.com/watch?v=hd0Lbtly41Y)
-* GNU/Linux users [Ubuntu](https://linuxize.com/post/how-to-install-virtualbox-on-ubuntu-20-04/) | [Debian](https://linuxize.com/post/how-to-install-virtualbox-on-debian-10/) | [CentOS](https://linuxize.com/post/how-to-install-virtualbox-on-centos-8/)
+* GNU/Linux users: [Ubuntu](https://linuxize.com/post/how-to-install-virtualbox-on-ubuntu-20-04/) | [Debian](https://linuxize.com/post/how-to-install-virtualbox-on-debian-10/) | [CentOS](https://linuxize.com/post/how-to-install-virtualbox-on-centos-8/)
 
 ### Download &amp; Install Kali Linux
 
@@ -235,4 +235,8 @@ Kali Linux setup tutorials:
 ### Week 14: Review of Hacks II | Dec 20, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
+
+## Licensing
+
+These class materials are ethical Free and Open Source Software (FOSS). Any and all original work contained in this repository that is authored by Scott J. Shapiro and/or Sean O'Brien is released under the [GNU AGPL version 3](http://www.gnu.org/licenses/agpl-3.0.html) or any later version]. See '[LICENSE](LICENSE)' for more information.
 
