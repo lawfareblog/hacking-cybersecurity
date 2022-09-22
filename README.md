@@ -84,6 +84,14 @@ Kali Linux setup tutorials:
 * [Video for Mac users](https://www.youtube.com/watch?v=U2nzRtDVknk)
 * [Video for GNU/Linux users](https://www.youtube.com/watch?v=ILwRmXx8kwg)
 
+#### Extracting the 7-Zip Files
+
+[Kali Linux VMs](https://www.kali.org/get-kali/#kali-virtual-machines) are distributed in a compressed 7-Zip .7z format.  If your OS does not have software to extract 7-Zip files, please try installing one of these options: 
+
+* [PeaZIP](https://peazip.github.io/)
+* [7-Zip](https://www.7-zip.org/)
+* [IZArc](https://www.izarc.org/downloads)
+
 #### Log In to Kali Linux
 
 You may have to [restart your system](https://www.youtube.com/watch?v=p85xwZ_OLX0) to make sure virtualization drivers are loaded by your OS. Once you can boot Kali Linux, please log in. If you have installed Kali via the [VirtualBox VM method we recommend](https://www.kali.org/get-kali/#kali-virtual-machines), the default credentials are: 
