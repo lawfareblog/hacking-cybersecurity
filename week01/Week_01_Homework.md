@@ -1,4 +1,5 @@
-# Week 1 - Supplementary Materials
+# Week 1 - Supplementary Materials  
+[Markdown](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.html)
 
 ## The Command Line Interface (CLI) and Filesystems
 
