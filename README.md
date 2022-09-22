@@ -1,6 +1,6 @@
 # Hacking &amp; Cybersecurity class materials
 
-<img src="intro/images/scott-sean-promo.jpg" width="600" />
+[<img src="intro/images/scott-sean-promo.jpg" width="600" />](https://www.lawfareblog.com/lawfare-hacking-and-cybersecurity-course)
 
 **Instructors:** [Scott J. Shapiro](mailto:scott.shapiro@yale.edu) &amp; [Sean O'Brien](mailto:sean.obrien@yale.edu)
 
