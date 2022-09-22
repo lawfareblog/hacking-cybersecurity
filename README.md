@@ -1,6 +1,6 @@
 # Hacking &amp; Cybersecurity class materials
 
-<img src="scott-promo.png" width="500" />
+<img src="intro/images/scott-sean-promo.jpg" width="600" />
 
 **Instructors:** [Scott J. Shapiro](mailto:scott.shapiro@yale.edu) &amp; [Sean O'Brien](mailto:sean.obrien@yale.edu)
 
@@ -41,7 +41,7 @@ To effectively run virtual machines inside your host operating system, we recomm
 
 [Click here](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox installer for your operating system. You may also need to install the Extension Pack on your operating system, depending on settings.
 
-[<img src="virtualbox-download.png" width="600" />](https://www.virtualbox.org/wiki/Downloads)
+[<img src="week01/images/virtualbox-download.png" width="600" />](https://www.virtualbox.org/wiki/Downloads)
 
 VirtualBox installation tutorials: 
 
@@ -53,7 +53,7 @@ VirtualBox installation tutorials:
 
 [CLICK HERE](https://www.kali.org/get-kali/#kali-virtual-machines) and download a 64-bit pre-built virtual machine (VM) image of Kali Linux. You will add this VM image to VirtualBox to boot into Kali Linux inside your host operating system.
 
-[<img src="kali-download.png" width="600" />](https://www.kali.org/get-kali/#kali-virtual-machines)
+[<img src="week01/images/kali-download.png" width="600" />](https://www.kali.org/get-kali/#kali-virtual-machines)
 
 Kali Linux setup tutorials: 
 
@@ -70,3 +70,10 @@ Kali Linux setup tutorials:
 * Setting Up VirtualBox & Kali Linux
 * Command Line Interface (CLI)
 * The Filesystem Tree
+
+**Homework Assignment Videos:**
+
+* [Filesystems](week01/videos/01_Filesystems.mp4)
+* [Navigating Directories](week01/videos/02_Navigating_Directories.mp4)
+* [Manipulating Files](week01/videos/03_Manipulating_Files.mp4)
+
