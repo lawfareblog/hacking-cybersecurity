@@ -187,7 +187,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Virtual Private Networks (VPNs)
 * Distributed Denial-of-Service (DDoS)
 
-### Week 7: Networking II | Nov 1, 2022 7:00pm ET
+### Week 7: Encryption | Nov 1, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=BcUidExSTy8) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-7)
 
