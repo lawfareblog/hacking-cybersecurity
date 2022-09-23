@@ -2,7 +2,8 @@
 
 [<img src="intro/images/scott-sean-promo.jpg" width="600" />](https://www.lawfareblog.com/lawfare-hacking-and-cybersecurity-course)
 
-**Instructors:** [Scott J. Shapiro](mailto:scott.shapiro@yale.edu) &amp; [Sean O'Brien](mailto:sean.obrien@yale.edu)
+**Instructors:** [Scott J. Shapiro](https://law.yale.edu/scott-j-shapiro) &amp; [Sean O'Brien](https://cyberclear.cc)
+<!-- **Guest Instructor:** [Laurin Weissinger](https://laurinw.com), Week 8: Networking III -->
 
 ## Welcome Future Hackers!
 
@@ -255,7 +256,11 @@ Don't worry, we'll show you how to change this default password (and crack the w
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
 
-## Licensing
+## Acknowledgements &amp; Licensing
 
-These class materials are ethical Free and Open Source Software (FOSS). Any and all original work contained in this repository that is authored by Scott J. Shapiro and/or Sean O'Brien is released under the [GNU AGPL version 3](http://www.gnu.org/licenses/agpl-3.0.html) or any later version. See [LICENSE](LICENSE) for more information.
+This class is based upon materials developed by [Scott J. Shapiro](https://law.yale.edu/scott-j-shapiro), [Sean O'Brien](https://cyberclear.cc), and [Laurin Weissinger](https://laurinw.com) at Yale Law School since 2018. Some of these materials have been collected at [another repository](https://github.com/seandiggity/yls-cybersec), though the design of the class has changed over time. Laurin's contributions have been [covered by tech press](https://boingboing.net/2018/11/01/pumpkin-pi-2.html) and both Scott and Sean have talked about their approach to the course in [Yale media](https://law.yale.edu/yls-today/news/if-students-can-hack-course-theyre-ready-information-age-lawyering).
+
+These class materials are ethical Free and Open Source Software (FOSS). Any and all original work contained in this repository that is authored by Scott J. Shapiro, Sean O'Brien, and/or any guest instructors is released under the [GNU AGPL version 3](http://www.gnu.org/licenses/agpl-3.0.html) or any later version. See [LICENSE](LICENSE) for more information.
+
+Lawfare&trade; is a trademark of the [Lawfare Institute](https://lawfareblog.com) and any and all representations of that mark in this repository are &copy; copyright Lawfare Institute.
 
