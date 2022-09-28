@@ -38,12 +38,12 @@ To effectively run virtual machines inside your host operating system, we recomm
 * 4 GB of RAM
 * 32 GB of disk space
 * 64-bit CPU (multiple core) with 2 GHz speed or better
-	- See note about the latest Mac M1/M2 models below.
+	- See [note about the latest Mac M1/M2 models](#Mac-M1M2-Users) below.
 * High definition graphics card
 * Broadband Internet connection
 * Latest versions of Windows, macOS, or GNU/Linux (Ubuntu, Debian, or CentOS recommended)
 
-**A good rule of thumb:** Use a computer no older than the start of the Covid pandemic. We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines. See note about the latest Mac M1/M2 models below.
+**A good rule of thumb:** Use a computer no older than the start of the Covid pandemic. We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines. See [note about the latest Mac M1/M2 models](#Mac-M1M2-Users) below.
 
 #### Mac M1/M2 Users
 
