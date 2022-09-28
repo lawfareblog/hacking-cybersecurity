@@ -38,16 +38,16 @@ To effectively run virtual machines inside your host operating system, we recomm
 * 4 GB of RAM
 * 32 GB of disk space
 * 64-bit CPU (multiple core) with 2 GHz speed or better
-	- See note about the latest Mac M1/M2 models below.
+	- See [note about the latest Mac M1/M2 models](#Mac-M1M2-Users) below.
 * High definition graphics card
 * Broadband Internet connection
 * Latest versions of Windows, macOS, or GNU/Linux (Ubuntu, Debian, or CentOS recommended)
 
-**A good rule of thumb:** Use a computer no older than the start of the Covid pandemic. We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines. See note about the latest Mac M1/M2 models below.
+**A good rule of thumb:** Use a computer no older than the start of the Covid pandemic. We will try to accommodate students who do not have these minimum specs available, such as users with 32-bit machines. See [note about the latest Mac M1/M2 models](#Mac-M1M2-Users) below.
 
 #### Mac M1/M2 Users
 
-The latest Apple Mac models use a custom M1 or M2 ARM chipset that is **not 64-bit** architecture. This is a relatively new development, and virtualization on these Mac M1/M2 machines can be tricky. On these systems, the best solution seems to be [Parallels](https://www.parallels.com/blogs/parallels-desktop-apple-silicon-mac/), with [VMware Fusion](https://www.kali.org/docs/virtualization/install-VMware-silicon-host/) as an alternate option.
+The latest Apple Mac models use a custom M1 or M2 ARM chipset, known as Apple Silicon, that is **not an Intel** architecture. This is a relatively new development, and virtualization on these Mac M1/M2 machines can be tricky. On these systems, the best solution seems to be [Parallels](https://www.parallels.com/blogs/parallels-desktop-apple-silicon-mac/), with [VMware Fusion](https://www.kali.org/docs/virtualization/install-VMware-silicon-host/) as an alternate option.
 
 * [Download Parallels for Mac M1/M2 models](https://www.parallels.com/blogs/parallels-desktop-apple-silicon-mac/)
 	- [Install Kali Linux on Mac M1/M2 using Parallels](https://www.kali.org/docs/virtualization/install-parallels-guest-vm/)
@@ -55,11 +55,14 @@ The latest Apple Mac models use a custom M1 or M2 ARM chipset that is **not 64-b
 	- [Video 2: Install Kali on Parallels](https://www.youtube.com/watch?v=WHlZEU5ejek)
 
 * [Download VMware Fusion for Mac M1/M2 models](https://customerconnect.VMware.com/downloads/get-download?downloadGroup=FUS-PUBTP-22H2)
-	- [Install Kali Linux on Mac M1/M2 using VMware Fusion](https://www.kali.org/docs/virtualization/install-VMware-silicon-host/)
+	- [Install Kali Linux on Mac M1/M2 using VMware Fusion](https://www.kali.org/docs/virtualization/install-vmware-silicon-host/)
+
 	- [Video 1: Install Kali on VMware Fusion](https://www.youtube.com/watch?v=2qhL1Blq8es)
 	- [Video 2: Install Kali on VMware Fusion](https://www.youtube.com/watch?v=RMd5PrdwiOM)
 
 * [Video: Install Kali on Mac M1/M2 using UTM](https://www.youtube.com/watch?v=Z2e-fRLxXnU)
+
+	- [Kali inside UTM](https://www.kali.org/docs/virtualization/install-utm-guest-vm/)
 
 ### Download &amp; Install VirtualBox
 
