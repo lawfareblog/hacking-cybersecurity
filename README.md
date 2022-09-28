@@ -62,6 +62,8 @@ The latest Apple Mac models use a custom M1 or M2 ARM chipset, known as Apple Si
 
 * [Video: Install Kali on Mac M1/M2 using UTM](https://www.youtube.com/watch?v=Z2e-fRLxXnU)
 
+	- [Kali inside UTM](https://www.kali.org/docs/virtualization/install-utm-guest-vm/)
+
 ### Download &amp; Install VirtualBox
 
 [CLICK HERE](https://www.virtualbox.org/wiki/Downloads) and download the VirtualBox installer for your operating system. You may also need to install the Extension Pack on your operating system, depending on settings.
