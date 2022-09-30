@@ -102,13 +102,13 @@ An instance of a computer program that is running is called a "process". Firefox
 
 `top` gives you a simple view of processes on the system and will update in real-time. Hit `q` to quit.
 
-[<img src="week02/images/processes01.png" width="600" />](https://en.wikipedia.org/wiki/Top_(software))
+[<img src="images/processes01.png" width="600" />](https://en.wikipedia.org/wiki/Top_(software))
 
 #### `htop` - process viewer and manager
 
 `htop` is a replacement for top that gives you a prettier view and also more control over processes. The options menu is at the bottom and you can, for example, stop processes using `F9` for "Kill". Hit `F10` to quit.
 
-[<img src="week02/images/processes02.png" width="600" />](https://en.wikipedia.org/wiki/Htop))
+[<img src="images/processes02.png" width="600" />](https://en.wikipedia.org/wiki/Htop))
 
 
 #### Other ways of viewing processes

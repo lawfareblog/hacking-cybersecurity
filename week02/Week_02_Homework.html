@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.2">
+<title>Week_02_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 2 - Supplementary Materials</h1>
+<p><a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week02/Week_02_Homework.md">Markdown</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.pdf">PDF</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.docx">MS Word DOCX</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.odt">Libre ODT</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.html">HTML</a></p>
+<h2>Command Line Interface (CLI) Refresher</h2>
+<p>This week we give a quick refresher on the CLI and introduce new concepts related to system administration and processes.</p>
+<p><strong>Try a CLI in your browser:</strong> </p>
+<ul>
+<li><a href="https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&amp;mem=192">BROWSER CLI</a></li>
+</ul>
+<p><strong>NOTE:</strong> You will need to use Kali Linux for future sessions and the browser terminal will no longer be useful for practical exercises. If you have not set it up yet, please see our instructions in the <a href="https://github.com/lawfareblog/hacking-cybersecurity/">class README</a>.</p>
+<h3>Quick CLI Tips</h3>
+<ul>
+<li><strong>Filename autocomplete:</strong> Most modern terminal emulator programs (what you will use as a CLI) auto-complete filenames for files and directories. If you hit the <code>Tab</code> key after partially typing a filename, the terminal will try to autocomplete. If you hit <code>Tab</code> again, you will get a list of all filenames with the matching pattern. Example: </li>
+</ul>
+<p><code>ls -l ~/D</code> + hitting <code>Tab</code> twice will list <code>~/Desktop</code>, <code>~/Documents</code>, <code>~/Downloads</code> and so on. If you try <code>ls -l ~/Desk</code> + hitting <code>Tab</code> once, it will autocomplete <code>~/Desktop</code></p>
+<ul>
+<li>
+<p><strong>Command suggestions:</strong> The default terminal in Kali Linux has syntax color-coding and autocompletes commands and their options. You will see suggestions as faded text as you type. If you hit your right arrow key <code>→</code> it will autocomplete your command with the suggestion.</p>
+</li>
+<li>
+<p><strong>Command history:</strong> Most modern terminal emulator programs have command histories, which are stored in a text file in the user's home directory. To browse through your command history, hit the up arrow <code>↑</code>. This is really useful when you have long commands you want to repeat, perhaps with different options or switches, and allows you to easily fix typos that may have caused a previous command to fail. To clear your command history, type <code>history -c</code>.</p>
+</li>
+<li>
+<p><strong>Clear screen:</strong> To clear your screen use <code>clear</code>.</p>
+</li>
+<li>
+<p><strong>Wildcard character:</strong> The asterisk character <code>*</code> is used as a "wildcard" stand-in for missing characters. This is useful, for example, to perform commands on many files with similar filenames. If you run <code>rm *.txt</code>, all files with the extension <code>.txt</code> will be deleted in the current directory. If you run <code>rm Sean*</code> all files that start with "Sean" will be deleted in the current directory. And so on.</p>
+</li>
+<li>
+<p><strong>Cancel or Stop Command:</strong> Hitting <code>CTRL+C</code> or <code>Cmd+C</code> will "kill" a running command. This is useful, for example, if you have made an error or the command is running longer than expected. You can also use this to give you a fresh prompt if you're in the middle of typing a command and decide not to run it.</p>
+</li>
+<li>
+<p><strong>Case sensitivity:</strong> Remember, filenames and commands are case-sensitive. <code>mkdir ~/Scott</code> and <code>mkdir ~/scott</code> would create two separate directories.</p>
+</li>
+</ul>
+<h3>Creating Directories, Editing &amp; Deleting Files</h3>
+<p>These are commands we used in the livestream session for Week 2, but are also in the <a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week01/Week_01_Homework.md">Week 1 homework</a>.</p>
+<h4><code>mkdir</code> - make directory</h4>
+<p>To create a new directory, use the <code>mkdir</code> command. You can only create a directory where you have permission to do so. Permissions are a concept we will cover in class later. For now, try creating the directory <code>catphotos</code> in your home directory: <code>mkdir ~/cats</code></p>
+<h4><code>touch</code> - create an empty file</h4>
+<p>The <code>touch</code> command creates a new, empty file such as <code>touch ~/cats/awesome-cat-names.txt</code></p>
+<h4><code>nano</code> - simple text editor</h4>
+<p>Nano is one of many text editors that can be loaded with the CLI, but is probably the simplest. It will load a file in a separate view that can be exited with <code>CTRL+X</code> and you will see this at the bottom of the screen represented as <code>^X</code> For more information, <a href="https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/">read this tutorial</a>.</p>
+<p>Create your own list of awesome cat names with <code>nano ~/cats/awesome-cat-names.txt</code></p>
+<p>Traditionally, the two text editors that hackers use are <code>vi</code> or <code>emacs</code> There is a tongue-in-cheek <a href="https://en.wikipedia.org/wiki/Editor_war">"editor war"</a> between these two editors.</p>
+<h4><code>rm</code> - remove</h4>
+<p>Delete a file: <code>rm cool-cat-names2.txt</code></p>
+<p>Use <code>rm -R</code> to delete a directory and its contents.</p>
+<p>Be careful! There are jokes on the Internet that hackers like to test on new users, or "n00bs", such as <code>rm -Rf /</code> that can be very dangerous. Luckily, you usually have to be the administrative superuser "root" to do serious damage to your filesystem.</p>
+<h3>Administrative tasks</h3>
+<h4><code>sudo</code> - superuser do</h4>
+<p><code>sudo</code> allows users to run commands and programs with the security privileges of another user, by default the administrative "superuser" or <code>root</code> user. Generally speaking, you will need <code>sudo</code> for administrative tasks, to install software, and to modify files owned by other users (including nearly all the files outside of your user's home directory <code>~</code>).</p>
+<p>In Unix-like operating systems such as GNU/Linux and MacOS, <code>sudo</code> has largely replaced the default use of an administrative <code>root</code> account. This can prevent some exploits.</p>
+<h4><code>passwd</code> - set password</h4>
+<p>Use <code>passwd</code> to change the password for your user (when you enter the password, the cursor will not change to hide your password from the screen).
+If you typed <code>passwd sean</code> it would try to change the password for user <code>sean</code>. However, you likely would need to use <code>sudo passwd sean</code> to escalate your privileges to that of the administrative superuser.</p>
+<h4><code>adduser</code> - add user</h4>
+<p>Create a new user with <code>adduser</code>. <code>sudo adduser chicken</code> will create a user named "chicken" and, by default, the home directory for the user will be created at <code>/home/chicken</code> as well. The CLI will ask you a lot of "profile" questions about the user's real name etc. but you can skip these.</p>
+<h4><code>deluser</code> - delete user</h4>
+<p>Delete a user with <code>deluser</code>. <code>sudo deluser chicken</code> will delete the user named "chicken". You will need to remove the home directory for the user separately, for example by running <code>sudo rm -Rvf /home/chicken</code></p>
+<h3><code>hostname</code> - display hostname</h3>
+<p>Your "hostname" is how the operating system identifies the machine to programs on your system and other machines on a network. <a href="https://en.wikipedia.org/wiki/Hostname">Hostnames</a> are usually short labels that are useful locally to network and system administrators. The <code>hostname</code> command displays your hostname.</p>
+<h3><code>hostnamectl</code> - hostname control</h3>
+<p>Running the <code>hostnamectl</code> command with no options displays detailed information about your machine and operating system. It is useful when you need quick details about the machine you are running commands on.</p>
+<p>The <code>hostnamectl</code> command can also be used to change your hostname. Use <code>sudo hostnamectl set-hostname chickencoop --static</code> to change the hostname the machine uses on the network to "chickencoop". The static hostname is stored on the filesystem in <code>/etc/hostname</code>.</p>
+<p>Use <code>sudo hostnamectl set-hostname Chicken-Coop --pretty</code> to change the "pretty" hostname for local programs to "Chicken-Coop".</p>
+<p>Use <code>sudo hostnamectl set-hostname flewthecoop --transient</code> to change the transient hostname. This hostname is for identifying to network protocols like DHCP but is not necessary, as the static hostname will be used if there is no transient one.</p>
+<h3>Processes &amp; Services</h3>
+<p>An instance of a computer program that is running is called a "process". Firefox web browser, for example, may run as the <code>firefox</code> process. Processes on your system that run in the background may be called "services" or "daemons". <a href="https://en.wikipedia.org/wiki/Daemon_(computing)">Daemon</a> is an older Unix-y term.</p>
+<h4><code>top</code> - process viewer</h4>
+<p><code>top</code> gives you a simple view of processes on the system and will update in real-time. Hit <code>q</code> to quit.</p>
+<p><a href="https://en.wikipedia.org/wiki/Top_(software)"><img src="images/processes01.png" width="600" /></a></p>
+<h4><code>htop</code> - process viewer and manager</h4>
+<p><code>htop</code> is a replacement for top that gives you a prettier view and also more control over processes. The options menu is at the bottom and you can, for example, stop processes using <code>F9</code> for "Kill". Hit <code>F10</code> to quit.</p>
+<p><a href="https://en.wikipedia.org/wiki/Htop"><img src="images/processes02.png" width="600" /></a>)</p>
+<h4>Other ways of viewing processes</h4>
+<p>Try <code>sudo ls /proc/1</code>. What do you see? More information about <code>ls /proc</code> <a href="https://www.geeksforgeeks.org/proc-file-system-linux/">here</a>.</p>
+<p>Try <code>sudo ps aux</code>. What do you see? More information about <code>ps</code> <a href="https://www.geeksforgeeks.org/ps-command-in-linux-with-examples/">here</a>.</p>
+
+</body>
+</html>

@@ -131,13 +131,17 @@ Don't worry, we'll show you how to change this default password (and crack the w
 
 ### Week 2: Get to Know Your Operating System | Sep 27, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=AhxTRUKZqPQ) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-2)
+[Scott's Video Intro](https://www.youtube.com/watch?v=AhxTRUKZqPQ) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-2)
 
 * Admin / Root Access
 * The Kernel
 * Userspace
 * Processes
 * Rootkits
+
+#### Week 2 Supplementary Materials (Homework)
+
+* [Administrative Tasks &amp; System Processes](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week02/Week_02_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.html)
 
 ### Week 3: Identity &amp; Access Control | Oct 4, 2022 7:00pm ET
 
