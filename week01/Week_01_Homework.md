@@ -79,7 +79,7 @@ To create a new directory, use the `mkdir` command. You can only create a direct
 The `touch` command creates a new, empty file such as `touch ~/cats/awesome-cat-names.txt`
 
 
-#### nano - simple text editor
+#### `nano` - simple text editor
 
 Nano is one of many text editors that can be loaded with the CLI, but is probably the simplest. It will load a file in a separate view that can be exited with `CTRL+X` and you will see this at the bottom of the screen represented as `^X`  For more information, [read this tutorial](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/).
 
