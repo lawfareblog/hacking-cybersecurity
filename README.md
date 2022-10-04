@@ -143,7 +143,8 @@ Don't worry, we'll show you how to change this default password (and crack the w
 
 * [Administrative Tasks &amp; System Processes](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week02/Week_02_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week02/Week_02_Homework.html)
 
-### Week 3: Identity &amp; Access Control | Oct 4, 2022 7:00pm ET
+### Week 3: Identity &amp; Access Control | Oct 11, 2022 7:00pm ET
+* _Note: This class was moved from Oct 4 in observance of Yom Kippur._
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=8iboJMQwOj8) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-3)
 
@@ -154,7 +155,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Privilege Escalation Attacks
 * Breaking `/etc/shadow`
 
-### Week 4: Computers &amp; Operating Systems | Oct 11, 2022 7:00pm ET
+### Week 4: Computers &amp; Operating Systems | Oct 18, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=rWJcYZyAXUQ) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-4)
 
@@ -173,7 +174,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 	- Planes, Trains, &amp; Automobiles
 * Adversary-in-the-Middle Attacks (AiTM or MiTM)
 
-### Week 5: Networking I | Oct 18, 2022 7:00pm ET
+### Week 5: Networking I | Oct 25, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=lKsD4iuL9aI) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-5)
 
@@ -184,7 +185,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * TCP/IP &amp; UDP
 * Changing Your Network Identification
 
-### Week 6: Networking II | Oct 25, 2022 7:00pm ET
+### Week 6: Networking II | Nov 1, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=x-rvJpSu6xc) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-6)
 
@@ -195,7 +196,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Virtual Private Networks (VPNs)
 * Distributed Denial-of-Service (DDoS)
 
-### Week 7: Encryption | Nov 1, 2022 7:00pm ET
+### Week 7: Encryption | Nov 8, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=BcUidExSTy8) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-7)
 
@@ -207,7 +208,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Certificates
 * Backdoors
 
-### Week 8: Networking III | Nov 8, 2022 7:00pm ET
+### Week 8: Networking III | Nov 15, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=VzHoLXniQtA) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-8)
 
@@ -217,7 +218,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Network-based Intrusion Detection Systems (IDS)
 * Content Delivery Networks (CDNs) &amp; Anycast
 
-### Week 9: Penetration Testing | Nov 15, 2022 7:00pm ET
+### Week 9: Penetration Testing | Nov 22, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=OGBx3MVU8eg) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-9)
 
@@ -226,7 +227,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Metasploit Framework
 * Using Metasploit
 
-### Week 10: Anonymity &amp; The Dark Web | Nov 22, 2022 7:00pm ET
+### Week 10: Anonymity &amp; The Dark Web | Nov 29, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=beAQCjiBFhw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-10)
 
@@ -235,7 +236,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Configuring Tor
 * Sharing Files Anonymously
 
-### Week 11: Chains of Trust | Nov 29, 2022 7:00pm ET
+### Week 11: Chains of Trust | Dec 6, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=xZa1YVI2sfg) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-11)
 
@@ -245,7 +246,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Free &amp; Open Source Software (FOSS)
 * Open Source Hardware
  
-### Week 12: Cybercrime | Dec 6, 2022 7:00pm ET
+### Week 12: Cybercrime | Dec 13, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=KgLqOFQj5EE) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-12)
 
@@ -256,11 +257,11 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Crime as a Service
 * Social Engineering
 
-### Week 13: Review of Hacks I | Dec 13, 2022 7:00pm ET
+### Week 13: Review of Hacks I | Dec 20, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13)
 
-### Week 14: Review of Hacks II | Dec 20, 2022 7:00pm ET
+### Week 14: Review of Hacks II | Dec 27, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
 
