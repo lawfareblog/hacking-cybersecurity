@@ -146,7 +146,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 ### Week 3: Identity &amp; Access Control | Oct 11, 2022 7:00pm ET
 * _Note: This class was moved from Oct 4 in observance of Yom Kippur._
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=8iboJMQwOj8) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-3)
+[Scott's Video Intro](https://www.youtube.com/watch?v=8iboJMQwOj8) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-3)
 
 * Permissions
 * Creating Users &amp; Groups
@@ -154,6 +154,10 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Principle of Least Privilege
 * Privilege Escalation Attacks
 * Breaking `/etc/shadow`
+
+#### Week 3 Supplementary Materials (Homework)
+
+* [Permissions and Password Cracking](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week03/Week_03_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/Week_03_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/Week_03_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/Week_03_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/Week_03_Homework.html)
 
 ### Week 4: Computers &amp; Operating Systems | Oct 18, 2022 7:00pm ET
 

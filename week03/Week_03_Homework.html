@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>Week_03_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 3 - Supplementary Materials</h1>
+<p><a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week03/Week_03_Homework.md">Markdown</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/Week_03_Homework.pdf">PDF</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/Week_03_Homework.docx">MS Word DOCX</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/Week_03_Homework.odt">Libre ODT</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/Week_03_Homework.html">HTML</a></p>
+<h2>Permissions Calculator</h2>
+<p><code>chmod</code> is the command used on Unix-like / GNU Linux systems to modify <a href="https://en.wikipedia.org/wiki/File-system_permissions#Permissions">filesystem permissions</a>. These permissions are stored in <a href="https://en.wikipedia.org/wiki/Octal">octal</a>, in three columns from 0-7 for "Owner", "Group", and "Public". 000 equals no permission, 777 equals full permission for everyone to read, write, and execute the file or directory. The combinations in between can be calculated via addition or the calculator linked below.</p>
+<ul>
+<li><a href="https://chmod-calculator.com">CHMOD Calculator</a></li>
+</ul>
+<h2>Filesystem permissions, root user, and sudo</h2>
+<ul>
+<li>
+<p>Use <code>ls -l</code> to see detailed permissions and ownership of files and directories. See more options for <code>ls</code> with <code>ls --help</code></p>
+</li>
+<li>
+<p>The <code>chmod</code> command changes permissions:</p>
+<ul>
+<li><code>chmod 400 file.txt</code> gives read permission to the owner of <code>file.txt</code></li>
+<li><code>chmod 644 file.txt</code> gives read+write permission (6) to the owner of <code>file.txt</code> and gives read permission (4) to the group and public.</li>
+<li>Use the <code>-R</code> option to apply permissions recursively to a directory (i.e. to the directory and all of its contents): <code>chmod 777 -R ~/Desktop</code> gives read+write+execute permissions to everyone for <code>/home/kali/Desktop</code> and its contents.</li>
+<li>See more options for <code>chmod</code> with <code>chmod --help</code></li>
+<li>Remember, write permission is permission to <strong>delete</strong> a file or directory as well.</li>
+</ul>
+</li>
+<li>
+<p>Each file or directory has an "owner" and a "group".  Usually, a user also has a group with the same name (e.g., <code>kali:kali</code>). If we had groups for our class on a filesystem, each student might be a member of <code>students</code> and your instructors might be in a <code>teachers</code> group.</p>
+</li>
+<li>
+<p>Run the command <code>groups</code> to list all groups associated with your user. To see groups for other users, type the username afterword such as <code>groups root</code></p>
+</li>
+<li>
+<p>The <code>chown</code> command changes ownership by users and groups:</p>
+<ul>
+<li><code>chown kali file.txt</code> gives ownership of <code>file.txt</code> to user <code>kali</code></li>
+<li><code>chown kali:root file.txt</code> gives ownership of <code>file.txt</code> to user <code>kali</code> and assigns the group <code>root</code> to the file.</li>
+<li>Use the <code>-R</code> option to apply ownership recursively to a directory (i.e. to the directory and all of its contents): <code>chown -R kali:kali ~/Desktop</code> gives ownership of the <code>/home/kali/Desktop</code> directory and its contents to user <code>kali</code> and assigns the group <code>kali</code> to the directory and its contents.</li>
+<li>See more options for <code>chown</code> with <code>chown --help</code></li>
+</ul>
+</li>
+<li>
+<p>Hidden files in the filesystem start with the <code>.</code> character such as <code>.hidden-file</code>  To view all files including hidden files, use <code>ls -la</code></p>
+</li>
+<li>
+<p>Activating the administrative superuser <code>root</code> is dangerous, but it may be necessary for certain tasks (and <strong>definitely</strong> something an attacker would like to do).  To activate the <code>root</code> user, type <code>sudo passwd -l root</code></p>
+</li>
+<li>
+<p>Then, you can set a password for the administrative superuser <code>root</code> user using <code>sudo passwd root</code>.</p>
+</li>
+<li>
+<p>These commands assume you have <code>sudo</code> permissions, which is the default in Kali Linux for your user <code>kali</code>. <code>sudo</code> allows you to temporarily act as the administrative superuser <code>root</code> and times out (depending on system settings). This protection means that you're only <strong>escalating privileges</strong> for a short time for a specific task or tasks, limiting the potential time-window for an attack against your system that does serious damage. It's also protection by the operating system <strong>from you</strong> - if you were instead running with <code>root</code> privileges all the time, it's more likely your (inevitable) mistakes would destroy the system.</p>
+</li>
+<li>
+<p>If you do want to switch into the <code>root</code> account, you can use <code>su</code>. This switch user command can also be used to switch into other user accounts such as <code>su sean</code> or <code>su scott</code>.  To leave the session for that user, type <code>exit</code> which will bring you back to being the default user <code>kali</code>.</p>
+</li>
+</ul>
+<h2>Cracking Passwords with Dictionary Attacks</h2>
+<p>These are commands we used in the livestream session for Week 3 using the "John the Ripper" program.</p>
+<p>User account information is stored in two special text files:</p>
+<ul>
+<li><code>/etc/passwd</code></li>
+<li><code>/etc/shadow</code></li>
+</ul>
+<p>To view these files try:</p>
+<ul>
+<li><code>cat passwd</code> or <code>cat passwd | less</code></li>
+<li><code>cat shadow</code> or <code>cat shadow | less</code></li>
+</ul>
+<p>The <code>passwd</code> file contains information and settings for each user account.  That includes many "users" that only exist to run system services or "daemons" e.g. printers, boot and init processes, audio services, and so on. This segmentation of the permissions for these services as a "pseudo-user" or system account named specifically for its purpose makes administering the system more comprehensible while also providing some basic security protections. For our purposes, the <code>kali</code> and <code>root</code> user are all that matter in this <code>passwd</code> file.</p>
+<p>Likewise, the <code>shadow</code> file stores user settings <strong>and hashes of passwords</strong> for those users. Again, we only care about the <code>kali</code> and <code>root</code> entries in this file.</p>
+<p>John the Ripper or the command <code>john</code> combines brute force attacks against a password hash with password dictionaries.  It is a time versus memory tradeoff because many of these dictionaries or "wordlists" can get large. However, brute forcing can be near-impossible in many circumstances unless a password is extremely weak and/or short.</p>
+<ul>
+<li>To combine the <code>/etc/passwd</code> and <code>/etc/shadow</code> files for <code>john</code> to process, run: </li>
+</ul>
+<p><code>sudo unshadow /etc/passwd /etc/shadow &gt; unshadow.txt</code></p>
+<p>This will create an <code>unshadow.txt</code> file in the folder you are currently in.</p>
+<ul>
+<li>Now, we try to crack the password(s) in this file using one of the wordlists in <code>/usr/share/wordlists</code> called <code>john.lst</code></li>
+</ul>
+<p><code>sudo john --format=crypt --wordlist=/usr/share/wordlists/john.lst unshadow.txt</code></p>
+<p><strong>THAT'S IT!</strong> After letting <code>john</code> run, you should see the cracked passwords for these users.</p>
+<p>If you set your password for the <code>kali</code> or <code>root</code> user to something weak and/or short (such as "kali" or "password") you will see the cracking takes approx. two minutes or less.</p>
+<h3>Further Reading</h3>
+<h4>Common passwords and wordlists</h4>
+<p>Beware, some of the entries in these lists are English swear words <a href="https://en.wikipedia.org/wiki/Not_safe_for_work">NSFW</a></p>
+<ul>
+<li>
+<p>https://hashtoolkit.com/common-passwords/</p>
+</li>
+<li>
+<p>https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords</p>
+</li>
+<li>
+<p>https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-10000.txt</p>
+</li>
+<li>
+<p>https://www.geeksforgeeks.org/how-to-extract-rockyou-txt-gz-file-in-kali-linux/</p>
+</li>
+<li>
+<p>https://github.com/ohmybahgosh/RockYou2021.txt</p>
+</li>
+</ul>
+<h4>Password Tips</h4>
+<p>Here are some password strength, storage, and retention strategies.</p>
+<ul>
+<li>
+<p><strong>Passphrases:</strong> Can be a favorite song lyric, movie quote, or joke. Add numbers and special characters to increase the "keyspace": 
+<code>Cecil+Harambe4ever</code></p>
+</li>
+<li>
+<p><strong>Strength:</strong> <a href="https://en.wikipedia.org/wiki/Password_strength#Guidelines_for_strong_passwords">General guidelines</a> | <a href="https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/">Diceware method</a></p>
+</li>
+<li>
+<p><a href="https://github.com/micahflee/passphraseme">EFF diceware wordlists</a></p>
+</li>
+<li>
+<p><strong><a href="http://keepass.info/">KeePass</a></strong> (Windows/Linux) or <strong><a href="https://www.keepassx.org/">KeePassX</a></strong> (Mac): Organize your passwords in an encrypted database.</p>
+</li>
+<li>
+<p><strong>Browser Password Manager:</strong> <a href="https://support.mozilla.org/en-US/kb/use-master-password-protect-stored-logins">In Firefox</a> | <a href="http://www.ghacks.net/2013/12/04/google-chrome-gets-master-password-protection/">In Chromium</a></p>
+</li>
+<li>
+<p><strong>(2FA/MFA):</strong> One-time Pass (OTP) authenticator apps for <a href="https://search.f-droid.org/?q=authenticator&amp;lang=en">Android</a> or <a href="https://www.igeeksblog.com/best-two-factor-authentication-apps-for-iphone/">iOS</a> | Physical key tokens <a href="https://www.nitrokey.com/">Nitrokey</a> or <a href="https://www.yubico.com/">YubiKey</a> </p>
+</li>
+</ul>
+<p><strong>NOTE:</strong> Using a cloud-based password manager puts trust in the organization or company that runs that cloud. As with all of these recommendations, <a href="https://www.howtogeek.com/693183/what-does-ymmv-mean-and-how-do-you-use-it/">YMMV</a>. Our word is not gospel - ultimately, you need to decide who to trust.</p>
+<h4>Hashes &amp; Message Digests</h4>
+<ul>
+<li>
+<p>https://www.youtube.com/watch?v=b4b8ktEV4Bg</p>
+</li>
+<li>
+<p>https://en.wikipedia.org/wiki/Cryptographic_hash_function</p>
+</li>
+<li>
+<p>https://en.wikipedia.org/wiki/Cryptographic_hash_function#/media/File:Cryptographic_Hash_Function.svg</p>
+</li>
+</ul>
+
+</body>
+</html>
