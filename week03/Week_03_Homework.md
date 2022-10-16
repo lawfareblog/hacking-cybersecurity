@@ -71,17 +71,25 @@ This will create an `unshadow.txt` file in the folder you are currently in.
 
 `sudo john --format=crypt --wordlist=/usr/share/wordlists/john.lst unshadow.txt`
 
-**THAT'S IT!** After letting `john` run, you should see the cracked passwords for these users.  
+**THAT'S IT!** After letting `john` run, you should see the cracked passwords for these users.
 
-If you set your password for the `kali` or `root` user to something weak and/or short (such as "kali" or "password") you will see the cracking takes approx. two minutes or less.  
-  
-**NOTE:** If you are running a system that does not have the `john.lst` wordlist, please download it here](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/wordlists/john.lst), for example by using Firefox inside of Kali Linux or using wget:   
-  
-`wget --no-check-certificates https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/wordlists/john.lst`  
-  
+If you set your password for the `kali` or `root` user to something weak and/or short (such as "kali" or "password") you will see the cracking takes approx. two minutes or less.
+
+**NOTE:** If you are running a system that does not have the `john.lst` wordlist, please download it here](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/wordlists/john.lst), for example by using Firefox inside of Kali Linux or using wget: 
+
+`wget https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/wordlists/john.lst`
+
 Then change the path for the `--wordlist` option for the `john` command. If `john.lst` is in the current directory, for example: 
-  
+
 `sudo john --format=crypt --wordlist=john.lst unshadow.txt`
+
+...or use the `mv` command to move the file to `/usr/share/wordlists/`: 
+
+`sudo mv john.lst /usr/share/wordlists/`
+
+...and then run: 
+
+`sudo john --format=crypt --wordlist=/usr/share/wordlists/john.lst unshadow.txt`
 
 
 ### Further Reading

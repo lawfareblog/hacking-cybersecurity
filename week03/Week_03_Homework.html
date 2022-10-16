@@ -92,6 +92,14 @@ img { max-width: 100%; }
 <p><code>sudo john --format=crypt --wordlist=/usr/share/wordlists/john.lst unshadow.txt</code></p>
 <p><strong>THAT'S IT!</strong> After letting <code>john</code> run, you should see the cracked passwords for these users.</p>
 <p>If you set your password for the <code>kali</code> or <code>root</code> user to something weak and/or short (such as "kali" or "password") you will see the cracking takes approx. two minutes or less.</p>
+<p><strong>NOTE:</strong> If you are running a system that does not have the <code>john.lst</code> wordlist, please download it here](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/wordlists/john.lst), for example by using Firefox inside of Kali Linux or using wget: </p>
+<p><code>wget https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week03/wordlists/john.lst</code></p>
+<p>Then change the path for the <code>--wordlist</code> option for the <code>john</code> command. If <code>john.lst</code> is in the current directory, for example: </p>
+<p><code>sudo john --format=crypt --wordlist=john.lst unshadow.txt</code></p>
+<p>...or use the <code>mv</code> command to move the file to <code>/usr/share/wordlists/</code>: </p>
+<p><code>sudo mv john.lst /usr/share/wordlists/</code></p>
+<p>...and then run: </p>
+<p><code>sudo john --format=crypt --wordlist=/usr/share/wordlists/john.lst unshadow.txt</code></p>
 <h3>Further Reading</h3>
 <h4>Common passwords and wordlists</h4>
 <p>Beware, some of the entries in these lists are English swear words <a href="https://en.wikipedia.org/wiki/Not_safe_for_work">NSFW</a></p>
