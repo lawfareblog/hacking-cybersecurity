@@ -24,7 +24,7 @@ This week we give a quick refresher on the CLI and introduce new concepts relate
 
 * **Wildcard character:** The asterisk character `*` is used as a "wildcard" stand-in for missing characters. This is useful, for example, to perform commands on many files with similar filenames. If you run `rm *.txt`, all files with the extension `.txt` will be deleted in the current directory. If you run `rm Sean*` all files that start with "Sean" will be deleted in the current directory. And so on.
 
-* **Cancel or Stop Command:** Hitting `CTRL+C` or `Cmd+C` will "kill" a running command. This is useful, for example, if you have made an error or the command is running longer than expected. You can also use this to give you a fresh prompt if you're in the middle of typing a command and decide not to run it.
+* **Cancel or Stop Command:** Hitting `CTRL+C` will "kill" a running command. This is useful, for example, if you have made an error or the command is running longer than expected. You can also use this to give you a fresh prompt if you're in the middle of typing a command and decide not to run it.
 
 * **Case sensitivity:** Remember, filenames and commands are case-sensitive. `mkdir ~/Scott` and `mkdir ~/scott` would create two separate directories.
 
