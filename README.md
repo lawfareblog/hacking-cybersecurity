@@ -161,7 +161,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 
 ### Week 4: Computers &amp; Operating Systems | Oct 18, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=rWJcYZyAXUQ) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-4)
+[Scott's Video Intro](https://www.youtube.com/watch?v=rWJcYZyAXUQ) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-4)
 
 * Historical &amp; Current OS's 
 	- Unix
@@ -189,7 +189,8 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * TCP/IP &amp; UDP
 * Changing Your Network Identification
 
-### Week 6: Networking II | Nov 1, 2022 7:00pm ET
+### Week 6: Networking II | Nov 3, 2022 7:00pm ET
+* _Note: This class was moved from Tuesday Nov 1 to ""Thursday Nov 3**.
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=x-rvJpSu6xc) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-6)
 
