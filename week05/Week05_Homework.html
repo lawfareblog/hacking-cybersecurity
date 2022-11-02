@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>Week05_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 5 - Supplementary Materials</h1>
+<p><a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week05/Week_05_Homework.md">Markdown</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.pdf">PDF</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.docx">MS Word DOCX</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.odt">Libre ODT</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.html">HTML</a></p>
+<h2>Basic Networking Commands</h2>
+<p>This week we give an overview of basic networking concepts and associated commands in the CLI.</p>
+<p><strong>NOTE:</strong> You will need to use Kali Linux for these and future practical exercises. If you have not set it up yet, please see our instructions in the <a href="https://github.com/lawfareblog/hacking-cybersecurity/">class README</a>.</p>
+<h4><code>ip address</code></h4>
+<p>Use <code>ip address</code> to display IP addresses, bind a new IP address to a network interface (e.g, <code>eth0</code>), or delete address entries.</p>
+<p><code>ip address show dev</code></p>
+<p>The following command displays the IP address assigned to network interface <code>eth0</code>:</p>
+<p><code>ip address show dev eth0</code></p>
+<p><em>NOTE:</em> The <code>man</code> manual page  for <code>ip address</code> is named <code>ip-address</code>.</p>
+<hr>
+<h4><code>ifconfig</code></h4>
+<p>The <code>ifconfig</code> command is a utility for managing network interfaces. On newer Kali Linux systems, you will have to install the <code>net-tools</code> package to use <code>ifconfig</code>:</p>
+<p><code>sudo apt-get install net-tools</code></p>
+<p>Each interface with access to the Internet will have an IPv4 address listed as <code>inet</code> in the <code>ifconfig</code> output. The IPv6 address (we will not use these in class) is listed as <code>inet6</code>.</p>
+<p>The interface called <code>lo</code> is the "localhost" (or "loopback") interface, referring to your machine and listed with an IP address of 127.0.0.1</p>
+<p>Your Ethernet or WiFi network card's physical hardware address (Media Access Control or MAC Address) is listed as <code>inet address</code> in the output of <code>ifconfig</code>.</p>
+<p>If you are using a virtual machine, such as the Kali Linux VM we use for class, that address will be a virtual interface that is "bridged" to the network of the device hosting the VM.</p>
+<hr>
+<h4><code>nslookup</code></h4>
+<p><code>nslookup</code> allows network nodes to query domain name servers (DNS) and the associated IP addresses.</p>
+<p><code>nslookup lawfareblog.com</code></p>
+<p>DNS ties Internet addresses (such as IPv4) to domain names such as lawfareblog.com</p>
+<hr>
+<h4><code>dig</code></h4>
+<p>"Domain Information Groper" is commonly used to "dig" for information from DNS servers.</p>
+<p><code>dig lawfareblog.com</code></p>
+<hr>
+<h4><code>netstat</code></h4>
+<p><code>netstat</code> is used to find information about network connections, routing tables, and network statistics. Use <code>-i</code> option to list network interfaces.</p>
+<p><code>netstat -i</code></p>
+<p>The <code>-r</code> option will display the routing table, which is a configuration that routers and other network devices use to send packets to the machines.</p>
+<p><code>netstat -r</code></p>
+<p>Any packet intended for a network not listed in the table is handled by the default destination.</p>
+<p>With no options, <code>netstat</code> displays a list of open "sockets", which is a concept we will explore in later networking classes. You can use the <code>-l</code> option to show listening sockets.</p>
+<p><code>netstat -l</code></p>
+<p>Use the <code>-a</code> option to show all sockets.</p>
+<p><code>netstat -a</code></p>
+<p>These sockets are important information for an attacker who may have compromised the machine or is intending to do so.</p>
+
+</body>
+</html>
