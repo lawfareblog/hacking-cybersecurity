@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>Week06_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 6 - Supplementary Materials</h1>
+<p><a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week06/Week_06_Homework.md">Markdown</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week06/Week_06_Homework.pdf">PDF</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week06/Week_06_Homework.docx">MS Word DOCX</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week06/Week_06_Homework.odt">Libre ODT</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week06/Week_06_Homework.html">HTML</a></p>
+<h2>Intermediate Networking Commands</h2>
+<p>This week we continue discussing networking concepts, focusing on techniques for finding and exploiting weaknesses in a remote machine, and the associated commands in the CLI.</p>
+<p><strong>NOTE:</strong> You will need to use Kali Linux for these and future practical exercises. If you have not set it up yet, please see our instructions in the <a href="https://github.com/lawfareblog/hacking-cybersecurity/">class README</a>.</p>
+<hr>
+<h4><code>nmap</code></h4>
+<p>Servers running Unix-like operating systems such as GNU/Linux have many services running to handle external requests and maintain the system. For security hardening, these services should be disabled or removed to reduce the attack surface of the machine. </p>
+<p><code>nmap</code> has been used in the <a href="https://en.wikipedia.org/wiki/The_Matrix_Reloaded">Matrix Reloaded</a> and some other films.</p>
+<p>The default <code>nmap</code> scan shows the ports, their state of being open or closed, and the associated protocols. To check which hosts on your network are up, you need to check the IP range you are currently on. In home networks, this often starts with an IP range of 192.168.x.x and therefore would be: </p>
+<p><code>nmap -sn 192.168.0.0/24</code></p>
+<p>Use the -O flag to identify which operating system a host is running.</p>
+<p><code>nmap 10.0.0.50 -O</code></p>
+<hr>
+<h4><code>netstat</code></h4>
+<p>The <code>netstat</code> command outputs network statistics. It gives an overview of network activity and displays which ports are open or might have established connections. List all TCP ports by running:</p>
+<p><code>netstat -at</code></p>
+<p>List all UDP ports by running:</p>
+<p><code>netstat -au</code></p>
+<p>List the process ID or program name for a specific connection by adding the <code>-p</code> option:</p>
+<p><code>netstat -pntul</code></p>
+<hr>
+<h4><code>ping</code></h4>
+<p>Use <code>ping</code> to see if a host is available on the network. <code>ping</code> sends an <code>ICMP ECHO_REQUEST</code> packet to the target host and waits to see if it replies. Notably, some hosts block ICMP echo requests using other software controls such as a firewall.</p>
+<p>By default, <code>ping</code> runs in an infinite loop. To send a defined number of packets, use the <code>-c</code> option.</p>
+<p><code>ping -c 3 lawfareblog.com</code></p>
+<p>Using the <code>-o</code> option tries to send one packet.</p>
+<p><code>ping -o lawfareblog.com</code></p>
+<hr>
+<h4><code>traceroute</code></h4>
+<p>This command shows you the actual path through the network that packets take to their destination.</p>
+<p><code>traceroute lawfareblog.com</code></p>
+<p>This will show you a sequence of intermediaries as well as the destination. To trace the path through a specific intermediary, add it to the command. For example: </p>
+<p><code>traceroute -g 192.168.1.123 google.com</code></p>
+<hr>
+<h4><code>tcpdump</code></h4>
+<p><code>tcpdump</code> is a "packet sniffing" tool.</p>
+<p>To check which network interfaces are available to capture, use the <code>-D</code> option:</p>
+<p><code>tcpdump -D</code></p>
+<p>To capture only TCP packets:</p>
+<p><code>tcpdump --interface any -c 5 tcp</code></p>
+<p>You can use the <code>-A</code> and <code>-x</code> options to analyze the content of the network packet. The <code>-A</code> option stands for <a href="https://en.wikipedia.org/wiki/ASCII">ASCII format</a>:  </p>
+<p><code>tcpdump --interface any -c 1 -A</code></p>
+<p>The <code>-x</code> option will use hexadecimal format: </p>
+<p><code>tcpdump --interface any -c 1 -x</code></p>
+
+</body>
+</html>
