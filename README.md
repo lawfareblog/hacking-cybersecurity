@@ -197,9 +197,9 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * [Basic Networking](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week05/Week_05_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.html)
 
 ### Week 6: Networking II | Nov 3, 2022 7:00pm ET
-* _Note: This class was moved from Tuesday Nov 1 to ""Thursday Nov 3**.
+* _Note: This class was moved from Tuesday Nov 1 to Thursday Nov 3._
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=x-rvJpSu6xc) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-6)
+[Scott's Video Intro](https://www.youtube.com/watch?v=x-rvJpSu6xc) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-6)
 
 * Request/Response via the Web
 * State
@@ -207,6 +207,11 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Network Address Translation (NAT) &amp; Network Devices
 * Virtual Private Networks (VPNs)
 * Distributed Denial-of-Service (DDoS)
+
+#### Week 6 Supplementary Materials (Homework)
+
+* [Network Discovery](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week06/Week_06_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week06/Week_06_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week06/Week_06_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week06/Week_06_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week06/Week_06_Homework.html)
+
 
 ### Week 7: Encryption | Nov 8, 2022 7:00pm ET
 
@@ -219,6 +224,10 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Email Encryption (PGP/GPG)
 * Certificates
 * Backdoors
+
+#### Week 7 Supplementary Materials (Homework)
+
+* [Encryption Concepts &amp; PGP/GPG](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week07/Week_07_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week07/Week_07_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week07/Week_07_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week07/Week_07_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week07/Week_07_Homework.html)
 
 ### Week 8: Networking III | Nov 15, 2022 7:00pm ET
 
