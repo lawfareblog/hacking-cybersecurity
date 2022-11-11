@@ -54,7 +54,7 @@ Create a message to encrypt:
 `echo "Kermit drinking tea" > ~/message.txt`
 
 Encrypt the message with your public key:
-`gpg --encrypt --sign --armor -r kermit.muppet@lawfareblog.com message.txt`
+`gpg --encrypt --sign --armor -r kermit@lawfareblog.com message.txt`
 
 View the encrypted message: 
 `cat ~/message.txt.asc`

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>Week07_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 7 - Supplementary Materials</h1>
+<p><a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week07/Week_07_Homework.md">Markdown</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week07/Week_07_Homework.pdf">PDF</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week07/Week_07_Homework.docx">MS Word DOCX</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week07/Week_07_Homework.odt">Libre ODT</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week07/Week_07_Homework.html">HTML</a></p>
+<h2>Introduction to Encryption</h2>
+<p>This week we'll be scrambling secret messages and learning the basics of encryption.  We walk through the RSA algorithm and generate our own PGP keys to encrypt and sign files.</p>
+<p>As promised, we don't make you crunch complex math for this class. The following notes are provided for context and will give you better footing for our conversation around RSA.</p>
+<h3>Basic Arithmetic Concepts</h3>
+<ul>
+<li>
+<p><strong>Factor:</strong> x is a factor of y whenever x divides y evenly (i.e., leaves no remainder)</p>
+<ul>
+<li>Ex: 3 and 6 are factors of 12 because 12/6 = 2 and 12/3 = 4
+-5 and 7 are not factors of 12 because 12/5 and 12/7 have remainders</li>
+</ul>
+</li>
+<li>
+<p><strong>Common factor:</strong> x and y share a common factor z when z divides both x and y evenly</p>
+<ul>
+<li>Ex: 3 and 8 share no common factor other than 1</li>
+<li>3 and 6 share a common factor other than 1 (i.e., 3)</li>
+</ul>
+</li>
+<li>
+<p><strong>"x mod y":</strong>  mean "the remainder of x divided by y" </p>
+<ul>
+<li>Ex: 12 mod 6 = 0   (12 divided by 6 leaves no remainder)</li>
+<li>12 mod 5 = 2   (12 divided by 5 leaves 2 as a remainder)</li>
+<li>5 mod 12 = 5</li>
+<li>30 mod 29 = 1</li>
+<li>30 mod 31 = 30</li>
+<li><strong>Note:</strong> if y is a factor of x, x mod y = 0</li>
+<li>If z is a common factor of x and y, x mod z = 0 and y mod z = 0</li>
+</ul>
+</li>
+<li>
+<p><strong>Modulus:</strong> the "y" in "x mod y"</p>
+<ul>
+<li>Ex: 6 is the modulus in "12 mod 6"</li>
+<li>12 is the modulus in "6 mod 12"</li>
+</ul>
+</li>
+<li>
+<p><strong>Prime number:</strong> A number whose only factors are itself and 1.</p>
+<ul>
+<li>Ex: 3, 5, 7, 11, 13, 17 are prime numbers</li>
+<li>4, 6, 9, 10, 12, 15 are not prime numbers (they are composite numbers)</li>
+</ul>
+</li>
+<li>
+<p><strong>Co-primes:</strong> x is the co-prime of y if their only common factor is 1</p>
+<ul>
+<li>Ex: 5 and 12 are co-primes because they share no factor other than 1</li>
+<li>4 and 10 are not co-primes because they share a common factor (i.e., 2)     </li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4>PGP/GPG key generation</h4>
+<p>PGP is "Pretty Good Encryption", which uses asymmetric encryption (aka a public+private keypair). GPG is GNU Privacy Guard, which is the software that commonly generates PGP keys.</p>
+<p>Generate a public/private keypair:
+<code>gpg --full-generate-key</code></p>
+<p>Export the public key from the keyring:
+<code>gpg --output ~/kermit.pub --armor --export kermit@lawfareblog.com</code></p>
+<p>Create a message to encrypt:
+<code>echo "Kermit drinking tea" &gt; ~/message.txt</code></p>
+<p>Encrypt the message with your public key:
+<code>gpg --encrypt --sign --armor -r kermit@lawfareblog.com message.txt</code></p>
+<p>View the encrypted message: 
+<code>cat ~/message.txt.asc</code></p>
+<p>Decrypt the message with your private key: 
+<code>gpg --decrypt message.txt.asc &gt; message2.txt</code></p>
+
+</body>
+</html>
