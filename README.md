@@ -215,7 +215,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 
 ### Week 7: Encryption | Nov 8, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=BcUidExSTy8) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-7)
+[Scott's Video Intro](https://www.youtube.com/watch?v=BcUidExSTy8) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-7)
 
 * Obfuscation &amp; Hashes
 * Public/Private Key Exchange
