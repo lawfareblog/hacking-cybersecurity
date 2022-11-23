@@ -180,7 +180,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 
 #### Week 4 Supplementary Materials (Scavenger Hunt!)
 
-* [Scavenger Hunt activity](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week04/Week_04_Scavenger_Hunt.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week04/Week_04_Scavenger_Hunt.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week04/Week_04_Scavenger_Hunt.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week04/Week_04_Scavenger_Hunt.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week04/Week_04_Scavenger_Hunt.html)
+* [Scavenger Hunt activity](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week04/Week04_Scavenger_Hunt.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week04/Week04_Scavenger_Hunt.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week04/Week04_Scavenger_Hunt.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week04/Week04_Scavenger_Hunt.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week04/Week04_Scavenger_Hunt.html)
 
 ### Week 5: Networking I | Oct 25, 2022 7:00pm ET
 
@@ -194,7 +194,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Changing Your Network Identification
 
 #### Week 5 Supplementary Materials (Homework)
-* [Basic Networking](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week05/Week_05_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week_05_Homework.html)
+* [Basic Networking](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week05/Week05_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week05_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week05_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week05_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week05/Week05_Homework.html)
 
 ### Week 6: Networking II | Nov 3, 2022 7:00pm ET
 * _Note: This class was moved from Tuesday Nov 1 to Thursday Nov 3._
