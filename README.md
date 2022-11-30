@@ -239,7 +239,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Network-based Intrusion Detection Systems (IDS)
 * Content Delivery Networks (CDNs) &amp; Anycast
 
-### Week 9: Penetration Testing | Nov 22, 2022 7:00pm ET
+### Week 9: Penetration Testing | Nov <s>22</s> 29, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=OGBx3MVU8eg) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-9)
 
@@ -248,16 +248,16 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Metasploit Framework
 * Using Metasploit
 
-### Week 10: Anonymity &amp; The Dark Web | Nov 29, 2022 7:00pm ET
+### Week 10: Anonymity &amp; The Dark Web | Dec 6, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=beAQCjiBFhw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-10)
+[Scott's Video Intro](https://www.youtube.com/watch?v=beAQCjiBFhw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-9)
 
 * Onion Routing (Tor)
 * Censorship Circumvention
 * Configuring Tor
 * Sharing Files Anonymously
 
-### Week 11: Chains of Trust | Dec 6, 2022 7:00pm ET
+### Week 11: Chains of Trust | Dec 13, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=xZa1YVI2sfg) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-11)
 
@@ -267,7 +267,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Free &amp; Open Source Software (FOSS)
 * Open Source Hardware
  
-### Week 12: Cybercrime | Dec 13, 2022 7:00pm ET
+### Week 12: Cybercrime | Dec 20, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=KgLqOFQj5EE) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-12)
 
@@ -278,11 +278,11 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Crime as a Service
 * Social Engineering
 
-### Week 13: Review of Hacks I | Dec 20, 2022 7:00pm ET
+### Week 13: Review of Hacks I | Dec 27, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13)
 
-### Week 14: Review of Hacks II | Dec 27, 2022 7:00pm ET
+### Week 14: Review of Hacks II | Jan 3, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
 
