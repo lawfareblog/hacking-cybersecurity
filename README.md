@@ -250,7 +250,7 @@ Don't worry, we'll show you how to change this default password (and crack the w
 
 ### Week 10: Anonymity &amp; The Dark Web | Dec 6, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=beAQCjiBFhw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-9)
+[Scott's Video Intro](https://www.youtube.com/watch?v=beAQCjiBFhw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-10)
 
 * Onion Routing (Tor)
 * Censorship Circumvention
