@@ -108,6 +108,43 @@ You may have to [restart your system](https://www.youtube.com/watch?v=p85xwZ_OLX
 
 Don't worry, we'll show you how to change this default password (and crack the weak passwords of other users)!
 
+### Metasploit &amp; Metasploitable
+
+[Metasploit](https://docs.metasploit.com/) is a suite of exploits and penetration testing tools that is installed by default on Kali Linux. We demonstrate Metasploit via the `msfconsole` command throughout this course and it's one of the most important tools at your displosal as an ethical hacker. Real-world exploits such as [EternalBlue](https://en.wikipedia.org/wiki/EternalBlue), the exploit behind waves of ransomware, are merged into Metasploit as they become well-known and utilized in-the-wild.
+
+[Metasploitable](https://docs.rapid7.com/metasploit/metasploitable-2/) (Metasploitable-2) is a purposefully vulnerable operating system. It is a secure place to perform penetration testing and security research, notably by attacking it with Metasploit. To follow along with our live hacks in class, this virtual machine will be required. Additionally, it provides a good basis for your final hacks (though it is not required for your final project).
+
+### Download &amp; Install Metasploitable
+
+[CLICK HERE](https://sourceforge.net/projects/metasploitable/) and download a 64-bit pre-built virtual machine (VM) image of Metasploitable. You will add this VM image to VirtualBox to boot into Metasploitable inside your host operating system.
+
+[<img src="week09/images/08metasploitable.png" width="600" />](https://sourceforge.net/projects/metasploitable/)
+
+Metasploitable setup tutorials: 
+
+* [Video 01](https://www.youtube.com/watch?v=g1JnLIfTjzM)
+* [Video 02](https://www.youtube.com/watch?v=qSPT-YlIZAc)
+* [Video 03](https://www.youtube.com/watch?v=pre9yWxjjrk)
+
+#### Extracting the Zip File
+
+The [Metasploitable VM](https://sourceforge.net/projects/metasploitable/) is distributed in a compressed Zip .zip format. All modern desktop operating systems (Windows, macOS, and most GNU/Linux variants) will extract Zip files. Please make sure you extract the VM image somewhere that you can find it. Though it is in VMware .vmdk format, you will be able to import it into VirtualBox.
+
+#### Log In to Metasploitable
+
+Once you can boot Metasploitable, the default credentials are: 
+
+* username: `msfadmin`
+* password: `msfadmin`
+
+You don't have to change this password even though it is very weak because Metasploitable is _supposed_ to be insecure.
+
+#### Find the Metasploitable Network Address
+
+Use the `ifconfig` command to find the IP address for the Metasploitable VM. Remember this address because it will be the one that you attack with Kali Linux using Metasploit `msfconsole`.
+
+<img src="week09/images/09metasploitable.png" width="600" />
+
 ## Syllabus
 
 ### Week 1: Introduction, Command Line Interface, Filesystems | Sep 20, 2022 7:00pm ET
@@ -239,6 +276,10 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Network-based Intrusion Detection Systems (IDS)
 * Content Delivery Networks (CDNs) &amp; Anycast
 
+#### Week 8 Supplementary Materials (Homework)
+
+[Firewalls &amp; Social Engineering Attacks](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week08/Week_08_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.html)
+
 ### Week 9: Penetration Testing | Nov <s>22</s> 29, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=OGBx3MVU8eg) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-9)
@@ -248,6 +289,10 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Metasploit Framework
 * Using Metasploit
 
+#### Week 9 Supplementary Materials (Homework)
+
+[Metasploit &amp; Metasploitable](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week09/Week_09_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week_09_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week_09_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week_09_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week_09_Homework.html)
+
 ### Week 10: Anonymity &amp; The Dark Web | Dec 6, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=beAQCjiBFhw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-10)
@@ -256,6 +301,10 @@ Don't worry, we'll show you how to change this default password (and crack the w
 * Censorship Circumvention
 * Configuring Tor
 * Sharing Files Anonymously
+
+#### Week 10 Supplementary Materials (Homework)
+
+[Metasploit &amp; Metasploitable](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week10/Week_10_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.html)
 
 ### Week 11: Chains of Trust | Dec 13, 2022 7:00pm ET
 
