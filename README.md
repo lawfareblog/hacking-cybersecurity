@@ -315,6 +315,8 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 * Hardware Assurance
 * Free &amp; Open Source Software (FOSS)
 * Open Source Hardware
+
+[Tor &amp; The "Dark Web"](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week11/Week_11_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.html)
  
 ### Week 12: Cybercrime | Dec 20, 2022 7:00pm ET
 

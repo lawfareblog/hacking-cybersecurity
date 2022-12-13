@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+td, th { border: 1px solid #c3c3c3; padding: 0 3px 0 3px; }
+table { border-collapse: collapse; }
+img { max-width: 100%; }
+</style>
+<meta name="generator" content="ReText 7.2.3">
+<title>Week11_Homework</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+<h1>Week 11 - Supplementary Materials</h1>
+<p><a href="https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week11/Week_11_Homework.md">Markdown</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.pdf">PDF</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.docx">MS Word DOCX</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.odt">Libre ODT</a> | <a href="https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.html">HTML</a></p>
+<h2>Tor Browser</h2>
+<p><a href="https://torproject.org/download">Tor Browser</a> will allow us to proxy ordinary HTTP/HTTPS traffic through the Tor network to browse Websites. It is a heavily locked-down version of Mozilla Firefox.</p>
+<h3>Download Tor Browser</h3>
+<p>We will save the .xz file for the Tor Browser application to <code>~/Desktop/</code>: </p>
+<ul>
+<li><a href="https://www.torproject.org/download/">https://www.torproject.org/dist/torbrowser/12.0/tor-browser-linux64-12.0_ALL.tar.xz</a></li>
+</ul>
+<p>We want to download the Linux version for Kali Linux but you can also try the Windows or Mac versions at home.</p>
+<h3>Tor Project Developer Signature</h3>
+<p>We will save this signature .asc file to <code>~/Desktop/</code>.</p>
+<ul>
+<li>`https://www.torproject.org/dist/torbrowser/12.0/tor-browser-linux64-12.0_ALL.tar.xz.asc](https://www.torproject.org/dist/torbrowser/12.0/tor-browser-linux64-12.0_ALL.tar.xz.asc)</li>
+</ul>
+<p>It's easiest for the following commands to just navigate into the Desktop directory: </p>
+<p><code>cd ~/Desktop</code></p>
+<p><strong>NOTE:</strong> In Windows and MacOS operating systems, you will need to follow instructions here to check the signature of the file you download and ignore the commands below: </p>
+<ul>
+<li><a href="https://support.torproject.org/tbb/how-to-verify-signature/">https://support.torproject.org/tbb/how-to-verify-signature/</a></li>
+</ul>
+<h4>Install the Tor Project Developer PGP/GPG Keyring</h4>
+<p><code>gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org</code></p>
+<h4>Output the Tor Project Developer Key to File</h4>
+<p><code>gpg --output ./tor.keyring --export 0xEF6E286DDA85EA2A4BA7DE684E2C6E8793298290</code></p>
+<h4>Check the Signature for the Tor Browser Installer against the Tor Project Developer key</h4>
+<p><code>gpgv --keyring ./tor.keyring tor-browser-linux64-12.0_ALL.tar.xz.asc tor-browser-linux64-12.0_ALL.tar.xz</code> </p>
+<h2>Websites on the "Dark Web"</h2>
+<p>The Tor network is often referred to as the <a href="https://en.wikipedia.org/wiki/Dark_web">"Dark Web"</a>.  However, that term can be used to refer to any network that hosts data that is not available on the ordinary Internet experienced by most users, for example on an overlay network or "darknet".</p>
+<p>Tor is able to to host <a href="https://en.wikipedia.org/wiki/.onion">hidden services</a> ("onion services") via the special-use TLD <code>.onion</code>. To browse safe .onion sites, refer to this directory: </p>
+<ul>
+<li><a href="https://github.com/alecmuffett/real-world-onion-sites">Real World Onion Sites</a></li>
+</ul>
+<p>These .onion URLs will only work in Tor Browser or another Tor-enabled browser (like <a href="https://brave.com/tor-tabs-beta/">Brave Tor Tabs</a>.</p>
+<p><strong>IMPORTANT:</strong> The so-called "Dark Web" does contain content that is objectionable, illegal, or offensive. If you stray off the path of the Real World Onion Sites directory above, <strong>we are not responsible</strong>.</p>
+<h3>OnionShare</h3>
+<p>We can deploy a hidden service in Kali Linux by installing <a href="https://onionshare.org">OnionShare</a>.</p>
+<p>Install OnionShare in Kali Linux: </p>
+<p><code>sudo apt-get install onionshare</code></p>
+<p>Now launch it either through the Kali top menu in the GUI or via the CLI: </p>
+<p><code>onionshare</code></p>
+<h4>Persistent Hidden Services</h4>
+<p>In Kali Linux, follow these instructions for a persistent .onion address / hidden service.</p>
+<ul>
+<li><a href="https://serverok.in/tor-hidden-service-in-ubuntu-debian">Tor Hidden Service in Ubuntu/Debian</a></li>
+</ul>
+
+</body>
+</html>
