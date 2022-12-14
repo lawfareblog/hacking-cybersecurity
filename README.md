@@ -278,7 +278,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 #### Week 8 Supplementary Materials (Homework)
 
-[Firewalls &amp; Social Engineering Attacks](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week08/Week_08_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week_08_Homework.html)
+[Firewalls &amp; Social Engineering Attacks](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week08/Week08_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week08_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week08_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week08_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week08_Homework.html)
 
 ### Week 9: Penetration Testing | Nov <s>22</s> 29, 2022 7:00pm ET
 
@@ -291,7 +291,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 #### Week 9 Supplementary Materials (Homework)
 
-[Metasploit &amp; Metasploitable](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week09/Week_09_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week_09_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week_09_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week_09_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week_09_Homework.html)
+[Metasploit &amp; Metasploitable](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week09/Week09_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week09_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week09_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week09_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week09/Week09_Homework.html)
 
 ### Week 10: Anonymity &amp; The Dark Web | Dec 6, 2022 7:00pm ET
 
@@ -304,7 +304,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 #### Week 10 Supplementary Materials (Homework)
 
-[Metasploit &amp; Metasploitable](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week10/Week_10_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week_10_Homework.html)
+[Metasploit &amp; Metasploitable](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week10/Week10_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week10_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week10_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week10_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week10/Week10_Homework.html)
 
 ### Week 11: Chains of Trust | Dec 13, 2022 7:00pm ET
 
@@ -316,7 +316,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 * Free &amp; Open Source Software (FOSS)
 * Open Source Hardware
 
-[Tor &amp; The "Dark Web"](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week11/Week_11_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week_11_Homework.html)
+[Tor &amp; The "Dark Web"](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week11/Week11_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week11_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week11_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week11_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week11_Homework.html)
  
 ### Week 12: Cybercrime | Dec 20, 2022 7:00pm ET
 
