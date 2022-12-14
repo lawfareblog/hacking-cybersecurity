@@ -13,13 +13,23 @@ We will save the .xz file for the Tor Browser application to `~/Desktop/`:
 
 We want to download the Linux version for Kali Linux but you can also try the Windows or Mac versions at home.
 
+### Checksum of the Tor Browser Installer
+
+We can check the SHA256 hash value of the file we downloaded via the command:
+
+`sha256sum ~/Desktop/tor-browser-linux64-12.0_ALL.tar.xz`
+
+This hash is a [checksum](https://en.wikipedia.org/wiki/Checksum) that can be used to verify the integrity of the file. For example, it can be compared against the checksum listed at the origin of the download (in this case, the https://torproject.org website).
+
+However, we can go one step further by verifying the authorship (e.g. the authenticity) of the file and know with cryptographic certainty that we downloaded the exact file created by the Tor Project Developers. This can guard against attacks such as attacker-in-the-middle (AiTM or MiTM).
+
 ### Tor Project Developer Signature
 
 We will save this signature .asc file to `~/Desktop/`.
 
 * `https://www.torproject.org/dist/torbrowser/12.0/tor-browser-linux64-12.0_ALL.tar.xz.asc](https://www.torproject.org/dist/torbrowser/12.0/tor-browser-linux64-12.0_ALL.tar.xz.asc)
 
- It's easiest for the following commands to just navigate into the Desktop directory: 
+We will verify this signature using the commands below. It's easiest to use the following commands if we navigate into the Desktop directory: 
 
 `cd ~/Desktop`
 

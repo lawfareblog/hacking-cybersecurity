@@ -23,12 +23,17 @@ img { max-width: 100%; }
 <li><a href="https://www.torproject.org/download/">https://www.torproject.org/dist/torbrowser/12.0/tor-browser-linux64-12.0_ALL.tar.xz</a></li>
 </ul>
 <p>We want to download the Linux version for Kali Linux but you can also try the Windows or Mac versions at home.</p>
+<h3>Checksum of the Tor Browser Installer</h3>
+<p>We can check the SHA256 hash value of the file we downloaded via the command:</p>
+<p><code>sha256sum ~/Desktop/tor-browser-linux64-12.0_ALL.tar.xz</code></p>
+<p>This hash is a <a href="https://en.wikipedia.org/wiki/Checksum">checksum</a> that can be used to verify the integrity of the file. For example, it can be compared against the checksum listed at the origin of the download (in this case, the https://torproject.org website).</p>
+<p>However, we can go one step further by verifying the authorship (e.g. the authenticity) of the file and know with cryptographic certainty that we downloaded the exact file created by the Tor Project Developers. This can guard against attacks such as attacker-in-the-middle (AiTM or MiTM).</p>
 <h3>Tor Project Developer Signature</h3>
 <p>We will save this signature .asc file to <code>~/Desktop/</code>.</p>
 <ul>
 <li>`https://www.torproject.org/dist/torbrowser/12.0/tor-browser-linux64-12.0_ALL.tar.xz.asc](https://www.torproject.org/dist/torbrowser/12.0/tor-browser-linux64-12.0_ALL.tar.xz.asc)</li>
 </ul>
-<p>It's easiest for the following commands to just navigate into the Desktop directory: </p>
+<p>We will verify this signature using the commands below. It's easiest to use the following commands if we navigate into the Desktop directory: </p>
 <p><code>cd ~/Desktop</code></p>
 <p><strong>NOTE:</strong> In Windows and MacOS operating systems, you will need to follow instructions here to check the signature of the file you download and ignore the commands below: </p>
 <ul>
