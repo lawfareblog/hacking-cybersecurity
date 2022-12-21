@@ -329,11 +329,11 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 * Crime as a Service
 * Social Engineering
 
-### Week 13: Review of Hacks I | Dec 27, 2022 7:00pm ET
+### Week 13: Review of Hacks I | Jan 3, 2023 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13)
 
-### Week 14: Review of Hacks II | Jan 3, 2022 7:00pm ET
+### Week 14: Review of Hacks II | Jan 10, 2023 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
 
