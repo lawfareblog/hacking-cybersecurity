@@ -280,7 +280,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 [Firewalls &amp; Social Engineering Attacks](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week08/Week08_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week08_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week08_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week08_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week08/Week08_Homework.html)
 
-### Week 9: Penetration Testing | Nov <s>22</s> 29, 2022 7:00pm ET
+### Week 9: Penetration Testing | Nov 29, 2022 7:00pm ET
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=OGBx3MVU8eg) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-9)
 
@@ -329,13 +329,13 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 * Crime as a Service
 * Social Engineering
 
-### Week 13: Review of Hacks I | **Jan <s>3</s> 31, 2023** 7:00pm ET
+### Final Session: Review of Student Hacks | **Feb 14, 2023** 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13)
+<!-- [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13) -->
+**NOTE:** Our final session will be a review of the final hacks. We have pushed this forward into February to allow additional time for student submissions.
 
-### Week 14: Review of Hacks II | **Feb 14, 2023** 7:00pm ET
+[Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)->
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
 
 ## Acknowledgements &amp; Licensing
 
