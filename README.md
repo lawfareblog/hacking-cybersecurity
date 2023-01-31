@@ -332,7 +332,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 ### Final Session: Review of Student Hacks | **Feb 14, 2023** 7:00pm ET
 
 <!-- [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13) -->
-**NOTE:** Our final session will be a review of the final hacks. We have pushed this forward into February to allow additional time for student submissions.
+**NOTE:** Our final session will be a review of the final hacks. We have changed the date to allow additional time for student submissions.
 
 [Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
 
