@@ -334,7 +334,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 <!-- [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13) -->
 **NOTE:** Our final session will be a review of the final hacks. We have pushed this forward into February to allow additional time for student submissions.
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)->
+[Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
 
 
 ## Acknowledgements &amp; Licensing
