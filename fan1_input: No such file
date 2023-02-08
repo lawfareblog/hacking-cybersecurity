@@ -1,0 +1,9 @@
+The error message you are encountering indicates that the script is trying to access files that either don't exist or it doesn't have sufficient permissions to access.
+
+The first error, "cat: /sys/class/hwmon/hwmon0/fan1_input: No such file or directory," means that the file /sys/class/hwmon/hwmon0/fan1_input can't be found. This file is used to read the current fan speed, so if it doesn't exist, it's likely that the fan speed control is not supported on your system.
+
+The subsequent errors, "zsh: permission denied: /sys/class/hwmon/hwmon0/fan1_output," indicate that the script doesn't have the necessary permissions to write to the /sys/class/hwmon/hwmon0/fan1_output file, which is used to control the fan speed.
+
+To resolve these issues, you will need to check that the fan speed control is supported on your system, and ensure that the script has the necessary permissions to access the relevant files. This might involve changing the permissions on the files or running the script as a user with sufficient privileges.
+
+It's also worth noting that modifying fan speed at the level of the operating system can be dangerous, as it may cause damage to the fan or other hardware components. As such, it's important to carefully test any changes you make and ensure that they work as intended before using them in a production environment.
