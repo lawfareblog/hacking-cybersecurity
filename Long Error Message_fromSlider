@@ -1,0 +1,483 @@
+(kali㉿kali)-[~/Desktop]
+└─$ python tinkerEM.py
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+    return self.func(*args)
+  File "/home/kali/Desktop/tinkerEM.py", line 8, in on_scale_change
+    set_fan_speed(value)
+  File "/home/kali/Desktop/tinkerEM.py", line 5, in set_fan_speed
+    result = subprocess.run(["/usr/sbin/pwmconfig", "--set", str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+
