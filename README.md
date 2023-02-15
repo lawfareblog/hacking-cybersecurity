@@ -329,7 +329,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 * Crime as a Service
 * Social Engineering
 
-### Final Session: Review of Student Hacks | **Feb 14, 2023** 7:00pm ET
+### Final Session: Review of Student Hacks | **March 14, 2023** 7:00pm ET
 
 <!-- [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13) -->
 **NOTE:** Our final session will be a review of the final hacks. We have changed the date to allow additional time for student submissions.
