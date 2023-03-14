@@ -268,7 +268,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 ### Week 8: Networking III | Nov 15, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=VzHoLXniQtA) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-8)
+[Scott's Video Intro](https://www.youtube.com/watch?v=VzHoLXniQtA) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-8)
 
 * DNS &amp; Policy
 * Firewalls
@@ -282,7 +282,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 ### Week 9: Penetration Testing | Nov 29, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=OGBx3MVU8eg) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-9)
+[Scott's Video Intro](https://www.youtube.com/watch?v=OGBx3MVU8eg) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-9)
 
 * Delivering Payloads
 * SQL Injection Attacks
@@ -295,7 +295,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 ### Week 10: Anonymity &amp; The Dark Web | Dec 6, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=beAQCjiBFhw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-10)
+[Scott's Video Intro](https://www.youtube.com/watch?v=beAQCjiBFhw) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-10)
 
 * Onion Routing (Tor)
 * Censorship Circumvention
@@ -308,7 +308,7 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 ### Week 11: Chains of Trust | Dec 13, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=xZa1YVI2sfg) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-11)
+[Scott's Video Intro](https://www.youtube.com/watch?v=xZa1YVI2sfg) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-11)
 
 * Trusted Software Distribution
 * Software Verification
@@ -316,11 +316,13 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 * Free &amp; Open Source Software (FOSS)
 * Open Source Hardware
 
+#### Week 11 Supplementary Materials (Homework)
+
 [Tor &amp; The "Dark Web"](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week11/Week11_Homework.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week11_Homework.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week11_Homework.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week11_Homework.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week11/Week11_Homework.html)
  
 ### Week 12: Cybercrime | Dec 20, 2022 7:00pm ET
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=KgLqOFQj5EE) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-12)
+[Scott's Video Intro](https://www.youtube.com/watch?v=KgLqOFQj5EE) | [Watch Replay](https://www.crowdcast.io/e/lawfare-hacking-and-12)
 
 * Types of Cybercrimes
 * Varieties of Malware
@@ -331,11 +333,16 @@ Use the `ifconfig` command to find the IP address for the Metasploitable VM. Rem
 
 ### Final Session: Review of Student Hacks | **March 14, 2023** 7:00pm ET
 
-<!-- [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-13) -->
+<!-- [Scott's Video Intro](https://www.youtube.com/watch?v=1VHHtJKkb2Q) | [Watch](https://www.crowdcast.io/e/lawfare-hacking-and-13) -->
 **NOTE:** Our final session will be a review of the final hacks. We have changed the date to allow additional time for student submissions.
 
-[Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Sign Up](https://www.crowdcast.io/e/lawfare-hacking-and-14)
+[Scott's Video Intro](https://www.youtube.com/watch?v=nBFZk4k8VHw) | [Watch](https://www.crowdcast.io/e/lawfare-hacking-and-14)
 
+#### Resources
+
+[Cyber Careers and Training](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week12/Cyber_Resources.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week12/Cyber_Resources.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week12/Cyber_Resources.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week12/Cyber_Resources.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week12/Cyber_Resources.html)
+
+[How to Record Your Hacks](https://github.com/lawfareblog/hacking-cybersecurity/blob/main/week12/Screen_Recording.md) | [PDF](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week12/Screen_Recording.pdf) | [MS Word DOCX](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week12/Screen_Recording.docx) | [Libre ODT](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week12/Screen_Recording.odt) | [HTML](https://raw.githubusercontent.com/lawfareblog/hacking-cybersecurity/main/week12/Screen_Recording.html)
 
 ## Acknowledgements &amp; Licensing
 
