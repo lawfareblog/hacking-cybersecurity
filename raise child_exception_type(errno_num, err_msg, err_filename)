@@ -1,0 +1,27 @@
+                                                                            ┌──(kali㉿kali)-[~]
+└─$ cd Desktop
+                                      
+┌──(kali㉿kali)-[~/Desktop]
+└─$ python at_fan.py
+                                      
+┌──(kali㉿kali)-[~/Desktop]
+└─$ python at_fan.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/at_fan.py", line 22, in <module>
+    set_fan_speed(50)
+  File "/home/kali/Desktop/at_fan.py", line 12, in set_fan_speed
+    result = subprocess.run([PWM_CONFIG, '--set', str(value)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "/usr/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 969, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1845, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/sbin/pwmconfig'
+                                      
+┌──(kali㉿kali)-[~/Desktop]
+└─$ 
+
+
+
+
